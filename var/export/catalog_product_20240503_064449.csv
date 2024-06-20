@@ -1,0 +1,134 @@
+sku,store_view_code,attribute_set_code,product_type,categories,product_websites,name,description,short_description,weight,product_online,tax_class_name,visibility,price,special_price,special_price_from_date,special_price_to_date,url_key,meta_title,meta_keywords,meta_description,base_image,base_image_label,small_image,small_image_label,thumbnail_image,thumbnail_image_label,swatch_image,swatch_image_label,created_at,updated_at,new_from_date,new_to_date,display_product_options_in,map_price,msrp_price,map_enabled,gift_message_available,custom_design,custom_design_from,custom_design_to,custom_layout_update,page_layout,product_options_container,msrp_display_actual_price_type,country_of_manufacture,additional_attributes,qty,out_of_stock_qty,use_config_min_qty,is_qty_decimal,allow_backorders,use_config_backorders,min_cart_qty,use_config_min_sale_qty,max_cart_qty,use_config_max_sale_qty,is_in_stock,notify_on_stock_below,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,use_config_qty_increments,qty_increments,use_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,website_id,related_skus,related_position,crosssell_skus,crosssell_position,upsell_skus,upsell_position,additional_images,additional_image_labels,hide_from_product_page,custom_options,bundle_price_type,bundle_sku_type,bundle_price_view,bundle_weight_type,bundle_values,bundle_shipment_type,associated_skus,downloadable_links,downloadable_samples,configurable_variations,configurable_variation_labels
+"gourd zither",,Default,simple,"Default Category/Viet Nam/Music & Instruments ,Default Category/Viet Nam",base,"gourd zither","<div data-content-type=""html"" data-appearance=""default"" data-element=""main""><!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""UTF-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<title>Information about đàn bầu</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.section ul {
+    padding-left: 38.5px;
+    list-style-type: disc;
+}
+.section p {
+    padding-left: 38.5px;
+
+}
+.section img {
+    margin: auto;
+    display: block;
+    width: 45rem;
+}
+
+
+</style>
+</head>
+<body>
+<div class=""container"">
+    <div class=""section"">
+        <h2>History:</h2>
+        <p>
+            Ancient đàn bầu in the Vietnam Museum of Ethnology
+            While the earliest written records of the đàn bầu date its origin to 1770, scholars estimate its age to be up to one thousand years older than that. A popular legend of its beginning tells of a blind woman playing it in the market to earn a living for her family while her husband was at war. Whether this tale is based in fact or not, it remains true that the đàn bầu has historically been played by blind musicians. Until recent times, its soft volume limited the musical contexts in which it could be used. The đàn bầu, played solo, is central to Vietnamese folk music, a genre still popular today in the country. Its other traditional application is as an accompaniment to poetry readings. With the invention of the magnetic pickup, the usage of the đàn bầu spread to ensembles and also to contemporary Asian pop and rock music. Now, electronics designed for the electric guitar are sometimes employed with the đàn bầu to further expand its tonal palette.
+        </p>
+    </div>
+</div>
+
+
+<div class=""container"">
+    <div class=""section"">
+        <h2>Construction:</h2>
+        <p>
+            Originally, the đàn bầu was a tube zither, made of just four parts: a bamboo tube, a wooden rod, a coconut shell half, and a silk string. The string was strung across the bamboo, tied on one end to the rod, which is perpendicularly attached to the bamboo. The coconut shell was attached to the rod, serving as a resonator. In present days, the bamboo has been replaced by a wooden soundboard, with hardwood as the sides and softwood as the middle. An electric guitar string has replaced the traditional silk string. While the gourd is still present, it is now generally made of wood, acting only as a decorative feature. Also, most đàn bầu now have modern tuning machines, so the base pitch of the string can be adjusted. Usually, the instrument is tuned to one octave below middle C, about 131 Hz, but it can be tuned to other notes to make it easier to play in keys distant from C.
+        </p>
+<img src=""{{media url=.renditions/wysiwyg/smartwave/porto/product/vietnam/dan_bau_4.jpg}}"" alt=""cấu tạo đàn bầu"" />
+    </div>
+</div>
+
+<div class=""container"">
+    <div class=""section"">
+        <h2>Size:</h2>
+        <ul>
+            <li>Length: Ranges from 110 cm to 120 cm.</li>
+            <li>Width: Ranges from 12 cm to 14 cm.</li>
+            <li>Thickness: About 7 cm.</li>
+        </ul>
+    </div>
+    <div class=""section"">
+        <h2>Materials:</h2>
+        <ul>
+            <li>Body: Usually made of bamboo, jackfruit wood, coconut shell, or crocodile wood.</li>
+            <li>Face: Typically made of ebony, rosewood, or teak.</li>
+            <li>Neck: Usually made of bamboo or wood.</li>
+            <li>Frets: Often made of plastic or metal.</li>
+            <li>Strings: Usually made of steel or bronze.</li>
+        </ul>
+    </div>
+    <div class=""section"">
+        <h2>Weight:</h2>
+        <p>Ranges from 1 kg to 1.5 kg.</p>
+    </div>
+    <div class=""section"">
+        <h2>Components:</h2>
+        <ul>
+            <li>Body: The main component of the đàn bầu, producing resonance.</li>
+            <li>Face: Contains a small hole to release sound.</li>
+            <li>Neck: Holds the strings and frets.</li>
+            <li>Frets: Used to press and produce musical notes.</li>
+            <li>Strings: Produce sound when vibrating.</li>
+            <li>Bridge: Holds the strings away from the face.</li>
+            <li>Tuning pegs: Used to adjust the tension of the strings.</li>
+        </ul>
+    </div>
+    <div class=""section"">
+        <h2>Sound:</h2>
+        <p>The sound of the đàn bầu is resonant, plaintive, and melodious.</p>
+        <p>It can be used to play various genres of music such as folk, romantic, and modern music.</p>
+    </div>
+    <div class=""section"">
+        <h2>Playing Style:</h2>
+        <ul>
+            <li>Players use their fingers or a plectrum to press the frets and produce musical notes.</li>
+            <li>The đàn bầu can be played solo or in combination with other musical instruments.</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+</div>","The đàn bầu (Vietnamese: [ɗàːn.ɓə̀w]; ""gourd zither""; Chữ Nôm: 彈匏), also called độc huyền cầm (獨絃琴, ""one-string zither""; the name is only used by the Jing ethnicity in China) is a Vietnamese stringed instrument, in the form of a monochord (one-string) zither.",1.200000,1,"Taxable Goods","Catalog, Search",98.320000,,,,gourd-zither,"gourd zither","gourd zither, dan bau, one-string zither","gourd zither 
+<style>
+body {
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shado",/d/a/dan_bau_main.jpg,,/d/a/dan_bau_main.jpg,,/d/a/dan_bau_main.jpg,,/d/a/dan_bau_main.jpg,,"5/2/24, 10:40 PM","5/2/24, 11:48 PM",,,"Block after Info Column",,,,"Use config",,,,,"Product -- Full Width",,"Use config",Vietnam,sw_featured=No,10.0000,0.0000,1,0,0,1,1,1,10000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"/d/a/dan_bau_main.jpg,/d/a/dan_bau_3.jpg,/d/a/dan_bau_2.jpg,/d/a/dan_bau_1.jpg",",,,",,,,,,,,,,,,,
