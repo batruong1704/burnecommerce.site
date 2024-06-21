@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1718960609;s:6:"expire";i:1718964209;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_202,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-202"
+         data-role="swatch-option-202"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-202]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["198"]},{"id":"5447","label":"Pink","products":["199"]},{"id":"7","label":"Blue","products":["200"]},{"id":"8","label":"Green","products":["201"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"198":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"199":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"200":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"201":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20}},"productId":"202","chooseText":"Choose an Option...","images":[],"index":{"198":{"93":"6"},"199":{"93":"5447"},"200":{"93":"7"},"201":{"93":"8"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"198":"Pieu scarf-Red","199":"Pieu scarf-Pink","200":"Pieu scarf-Blue","201":"Pieu scarf-Green"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "http\u003A\u002F\u002Fburn.loc\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-202]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20}}                    }
+                }
+            }
+        }
+    </script>
