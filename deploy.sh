@@ -12,11 +12,9 @@ print_center() {
     local pos=$(( (cols - len) / 2 ))  # Calculate starting position for centering
     printf "%*s\n" $pos "$text"
 }
-
+echo
+echo
 print_center "Start Deploy"
-print_center "*"
-print_center "***"
-print_center "*****"
 
 echo "${GREEN}## 1/5. Upgrade site${NC}"
 sudo php bin/magento setup:upgrade
@@ -39,7 +37,4 @@ echo
 echo "${GREEN}## 5/5. Setup permission${NC}"
 sh ./set-permission.sh
 
-print_center "*****"
-print_center "***"
-print_center "*"
-print_center "${GREEN}SUCCESS"
+print_center "SUCCESS"
