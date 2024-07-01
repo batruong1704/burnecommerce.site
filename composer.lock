@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "645ad7c9bdb08fcea5a48db3a1fdd132",
+    "content-hash": "e83e836580c2b9f45749e0ad87fde2c2",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -1403,6 +1403,49 @@
                 }
             ],
             "time": "2024-05-06T16:37:16+00:00"
+        },
+        {
+            "name": "crisp-chat/chatbox-and-helpdesk",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dinistavares/crisp-magento.git",
+                "reference": "ab42a45bb175de8568c3b981d7d4f694632b4ac3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dinistavares/crisp-magento/zipball/ab42a45bb175de8568c3b981d7d4f694632b4ac3",
+                "reference": "ab42a45bb175de8568c3b981d7d4f694632b4ac3",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "103.0.*",
+                "magento/module-config": "101.*",
+                "magento/module-csp": "100.*",
+                "magento/module-customer": "103.*",
+                "magento/module-integration": "100.*",
+                "magento/module-store": "101.*",
+                "php": "~7.3.0||~7.4.0||~8.1.0||~8.2.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Crisp\\Crisp\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A module to add a chat widget on your website and show your customers carts and orders in your Crisp inbox.",
+            "support": {
+                "issues": "https://github.com/dinistavares/crisp-magento/issues",
+                "source": "https://github.com/dinistavares/crisp-magento/tree/1.0.5"
+            },
+            "time": "2024-06-05T15:08:12+00:00"
         },
         {
             "name": "dasprid/enum",

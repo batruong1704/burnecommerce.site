@@ -7727,3 +7727,658 @@ Stack trace:
 #87 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
 #88 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
 #89 {main} {"exception":"[object] (Elasticsearch\\Common\\Exceptions\\NoNodesAvailableException(code: 0): No alive nodes found in your cluster at /var/www/burn/htdocs/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:64)"} []
+[2024-07-01T03:47:16.834219+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:17.160321+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:17.457094+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:17.734110+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:18.012531+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:18.380709+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:18.656719+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:18.896419+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:19.036499+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:19.148254+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:19.338733+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:19.697263+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:47:19.885670+00:00] main.CRITICAL: Magento\Framework\Exception\LocalizedException: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 in /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Framework\Module\Plugin\DbStatusValidator->beforeDispatch()
+#1 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#3 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#4 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#5 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#6 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#7 {main} {"report_id":"c989708f6061632daa1cc547ea02cf8dd65af37074149500c5232e24e100626b","exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Please upgrade your database: Run \"bin/magento setup:upgrade\" from the Magento root directory.
+The following modules are outdated:
+GlobalPayments_PaymentGateway schema: current version - none, required version - 2.0.0
+GlobalPayments_PaymentGateway data: current version - none, required version - 2.0.0 at /var/www/burn/htdocs/vendor/magento/framework/Module/Plugin/DbStatusValidator.php:83)"} []
+[2024-07-01T03:54:52.142473+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T03:57:49.002352+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T03:59:55.876858+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:00:38.308797+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:11:11.786002+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:11:34.662090+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:11:43.467294+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:11:46.714272+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:11:51.031170+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:12:05.273946+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:12:16.281503+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:19:01.963319+00:00] main.CRITICAL: Magento\Framework\View\Asset\File\NotFoundException: Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' in /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(81): Magento\Framework\View\Asset\File->getContent()
+#1 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/Direct.php(60): Magento\Framework\View\Asset\MergeStrategy\Direct->composeMergedContent()
+#2 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/MergeStrategy/FileExists.php(44): Magento\Framework\View\Asset\MergeStrategy\Direct->merge()
+#3 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(111): Magento\Framework\View\Asset\MergeStrategy\FileExists->merge()
+#4 /var/www/burn/htdocs/vendor/magento/framework/View/Asset/Merged.php(183): Magento\Framework\View\Asset\Merged->initialize()
+#5 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(420): Magento\Framework\View\Asset\Merged->rewind()
+#6 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(297): Magento\Framework\View\Page\Config\Renderer->renderAssetHtml()
+#7 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(284): Magento\Framework\View\Page\Config\Renderer->renderAssetGroup()
+#8 /var/www/burn/htdocs/vendor/magento/framework/View/Page/Config/Renderer.php(137): Magento\Framework\View\Page\Config\Renderer->renderAssets()
+#9 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Page.php(252): Magento\Framework\View\Page\Config\Renderer->renderHeadContent()
+#10 /var/www/burn/htdocs/vendor/magento/framework/View/Result/Layout.php(171): Magento\Framework\View\Result\Page->render()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\View\Result\Layout->renderResult()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Model\View\Result\Page\Interceptor->___callParent()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Model\View\Result\Page\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/burn/htdocs/generated/code/Magento/Backend/Model/View/Result/Page/Interceptor.php(32): Magento\Backend\Model\View\Result\Page\Interceptor->___callPlugins()
+#15 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(120): Magento\Backend\Model\View\Result\Page\Interceptor->renderResult()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#17 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#18 {main} {"exception":"[object] (Magento\\Framework\\View\\Asset\\File\\NotFoundException(code: 0): Unable to get content for 'adminhtml/Magento/backend/en_US/GlobalPayments_PaymentGateway/js/system/config/edit/enforce-single-gateway.js' at /var/www/burn/htdocs/vendor/magento/framework/View/Asset/File.php:188)"} []
+[2024-07-01T04:24:59.131342+00:00] main.CRITICAL: ReflectionException: Class "Magento\Config\Model\Config\Structure\Proxy" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#5 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#6 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#7 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#8 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#9 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#10 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#11 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#12 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#13 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#14 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#15 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#16 /var/www/burn/htdocs/vendor/magento/framework/App/ActionFactory.php(44): Magento\Framework\ObjectManager\ObjectManager->create()
+#17 /var/www/burn/htdocs/vendor/magento/framework/App/Router/Base.php(306): Magento\Framework\App\ActionFactory->create()
+#18 /var/www/burn/htdocs/vendor/magento/framework/App/Router/Base.php(167): Magento\Framework\App\Router\Base->matchAction()
+#19 /var/www/burn/htdocs/vendor/magento/framework/App/FrontController.php(144): Magento\Framework\App\Router\Base->match()
+#20 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#21 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#22 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#23 /var/www/burn/htdocs/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#24 /var/www/burn/htdocs/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#25 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#26 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#27 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#28 {main} {"report_id":"7632f2d87aceed8ad3e3725a822e283544cc0f635e58f7a6d38957fc01d87235","exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Config\\Model\\Config\\Structure\\Proxy\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:53:30.918128+00:00] main.CRITICAL: Exception: Warning: file_put_contents(/var/www/burn/htdocs/var/cache//mage-tags/mage---151_CONFIG): Failed to open stream: Permission denied in /var/www/burn/htdocs/vendor/colinmollenhour/cache-backend-file/File.php on line 710 in /var/www/burn/htdocs/vendor/magento/framework/App/ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler()
+#1 /var/www/burn/htdocs/vendor/colinmollenhour/cache-backend-file/File.php(710): file_put_contents()
+#2 /var/www/burn/htdocs/vendor/colinmollenhour/cache-backend-file/File.php(204): Cm_Cache_Backend_File->_updateIdsTags()
+#3 /var/www/burn/htdocs/vendor/magento/zend-cache/library/Zend/Cache/Core.php(390): Cm_Cache_Backend_File->save()
+#4 /var/www/burn/htdocs/vendor/magento/framework/Cache/Core.php(74): Zend_Cache_Core->save()
+#5 /var/www/burn/htdocs/vendor/magento/framework/Cache/Frontend/Adapter/Zend.php(63): Magento\Framework\Cache\Core->save()
+#6 /var/www/burn/htdocs/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Adapter\Zend->save()
+#7 /var/www/burn/htdocs/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#8 /var/www/burn/htdocs/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#9 /var/www/burn/htdocs/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#10 /var/www/burn/htdocs/vendor/magento/framework/App/Cache/Type/AccessProxy.php(85): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#11 /var/www/burn/htdocs/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\App\Cache\Type\AccessProxy->save()
+#12 /var/www/burn/htdocs/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#13 /var/www/burn/htdocs/vendor/magento/framework/Config/Data.php(106): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#14 /var/www/burn/htdocs/vendor/magento/framework/Config/Data.php(93): Magento\Framework\Config\Data->initData()
+#15 /var/www/burn/htdocs/vendor/magento/module-cron/Model/Groups/Config/Data.php(29): Magento\Framework\Config\Data->__construct()
+#16 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Cron\Model\Groups\Config\Data->__construct()
+#17 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#18 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#19 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#20 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#21 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#22 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#23 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#24 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#25 /var/www/burn/htdocs/vendor/magento/framework/Interception/PluginList/PluginList.php(173): Magento\Framework\ObjectManager\ObjectManager->get()
+#26 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(144): Magento\Framework\Interception\PluginList\PluginList->getPlugin()
+#27 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Config\Initial\Converter\Interceptor->Magento\Framework\Interception\{closure}()
+#28 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Config/Initial/Converter/Interceptor.php(23): Magento\Framework\App\Config\Initial\Converter\Interceptor->___callPlugins()
+#29 /var/www/burn/htdocs/vendor/magento/framework/App/Config/Initial/Reader.php(123): Magento\Framework\App\Config\Initial\Converter\Interceptor->convert()
+#30 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Config/Initial/Reader/Proxy.php(95): Magento\Framework\App\Config\Initial\Reader->read()
+#31 /var/www/burn/htdocs/vendor/magento/framework/App/Config/Initial.php(56): Magento\Framework\App\Config\Initial\Reader\Proxy->read()
+#32 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\App\Config\Initial->__construct()
+#33 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#34 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#35 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#36 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#37 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#38 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#39 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#40 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#41 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(206): Magento\Framework\ObjectManager\ObjectManager->get()
+#42 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(182): Magento\Framework\ObjectManager\Factory\AbstractFactory->parseArray()
+#43 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#44 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#45 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#46 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#47 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#48 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#49 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#50 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#51 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#52 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#53 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#54 /var/www/burn/htdocs/generated/code/Magento/Config/App/Config/Type/System/Reader/Proxy.php(84): Magento\Framework\ObjectManager\ObjectManager->get()
+#55 /var/www/burn/htdocs/generated/code/Magento/Config/App/Config/Type/System/Reader/Proxy.php(95): Magento\Config\App\Config\Type\System\Reader\Proxy->_getSubject()
+#56 /var/www/burn/htdocs/vendor/magento/module-config/App/Config/Type/System.php(395): Magento\Config\App\Config\Type\System\Reader\Proxy->read()
+#57 /var/www/burn/htdocs/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(136): Magento\Config\App\Config\Type\System->readData()
+#58 /var/www/burn/htdocs/vendor/magento/module-config/App/Config/Type/System.php(277): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#59 /var/www/burn/htdocs/vendor/magento/module-config/App/Config/Type/System.php(207): Magento\Config\App\Config\Type\System->loadDefaultScopeData()
+#60 /var/www/burn/htdocs/vendor/magento/module-config/App/Config/Type/System.php(181): Magento\Config\App\Config\Type\System->getWithParts()
+#61 /var/www/burn/htdocs/vendor/magento/framework/App/Config.php(132): Magento\Config\App\Config\Type\System->get()
+#62 /var/www/burn/htdocs/vendor/magento/framework/App/Config.php(80): Magento\Framework\App\Config->get()
+#63 /var/www/burn/htdocs/vendor/magento/framework/App/Config.php(93): Magento\Framework\App\Config->getValue()
+#64 /var/www/burn/htdocs/vendor/magento/module-new-relic-reporting/Model/Config.php(94): Magento\Framework\App\Config->isSetFlag()
+#65 /var/www/burn/htdocs/vendor/magento/module-new-relic-reporting/Plugin/HttpPlugin.php(49): Magento\NewRelicReporting\Model\Config->isNewRelicEnabled()
+#66 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(121): Magento\NewRelicReporting\Plugin\HttpPlugin->beforeCatchException()
+#67 /var/www/burn/htdocs/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#68 /var/www/burn/htdocs/generated/code/Magento/Framework/App/Http/Interceptor.php(32): Magento\Framework\App\Http\Interceptor->___callPlugins()
+#69 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(270): Magento\Framework\App\Http\Interceptor->catchException()
+#70 /var/www/burn/htdocs/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#71 {main} {"exception":"[object] (Exception(code: 0): Warning: file_put_contents(/var/www/burn/htdocs/var/cache//mage-tags/mage---151_CONFIG): Failed to open stream: Permission denied in /var/www/burn/htdocs/vendor/colinmollenhour/cache-backend-file/File.php on line 710 at /var/www/burn/htdocs/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2024-07-01T06:54:19.178360+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:20.014339+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:24.410347+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:27.839098+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:28.786204+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:32.966896+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:33.519006+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:38.238111+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:40.528173+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2024-07-01T06:54:40.725757+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /var/www/burn/htdocs/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /var/www/burn/htdocs/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /var/www/burn/htdocs/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /var/www/burn/htdocs/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
