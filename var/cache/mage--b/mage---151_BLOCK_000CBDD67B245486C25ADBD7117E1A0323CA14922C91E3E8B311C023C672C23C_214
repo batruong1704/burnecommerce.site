@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719800517;s:6:"expire";i:1719804117;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_214,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-214"
+         data-role="swatch-option-214"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-214]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"4","label":"White","products":["228","230","232"]},{"id":"5","label":"Black","products":["215","216","217","218","219","220"]},{"id":"5441","label":"Yellow","products":["222","224","226"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["215","216","222","228"]},{"id":"11","label":"Large","products":["217","218","224","230"]},{"id":"12","label":"Extra Large","products":["219","220","226","232"]}],"position":"1"},"171":{"id":"171","code":"sex","label":"Sex","options":[{"id":"5442","label":"Male","products":["215","217","219"]},{"id":"5443","label":"Famale","products":["216","218","220","222","224","226","228","230","232"]}],"position":"2"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"215":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"216":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"217":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"218":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"219":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"220":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"222":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"224":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"226":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"228":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"230":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"232":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200}},"productId":"214","chooseText":"Choose an Option...","images":[],"index":{"215":{"93":"5","159":"10","171":"5442"},"216":{"93":"5","159":"10","171":"5443"},"217":{"93":"5","159":"11","171":"5442"},"218":{"93":"5","159":"11","171":"5443"},"219":{"93":"5","159":"12","171":"5442"},"220":{"93":"5","159":"12","171":"5443"},"222":{"93":"5441","159":"10","171":"5443"},"224":{"93":"5441","159":"11","171":"5443"},"226":{"93":"5441","159":"12","171":"5443"},"228":{"93":"4","159":"10","171":"5443"},"230":{"93":"4","159":"11","171":"5443"},"232":{"93":"4","159":"12","171":"5443"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"215":"Mong ethnic brocade dress-Black-Medium-Male","216":"Mong ethnic brocade dress-Black-Medium-Famale","217":"Mong ethnic brocade dress-Black-Large-Male","218":"Mong ethnic brocade dress-Black-Large-Famale","219":"Mong ethnic brocade dress-Black-Extra Large-Male","220":"Mong ethnic brocade dress-Black-Extra Large-Famale","222":"Mong ethnic brocade dress-Yellow-Medium-Famale","224":"Mong ethnic brocade dress-Yellow-Large-Famale","226":"Mong ethnic brocade dress-Yellow-Extra Large-Famale","228":"Mong ethnic brocade dress-White-Medium-Famale","230":"Mong ethnic brocade dress-White-Large-Famale","232":"Mong ethnic brocade dress-White-Extra Large-Famale"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "http\u003A\u002F\u002Fburn.loc\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-214]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200}}                    }
+                }
+            }
+        }
+    </script>

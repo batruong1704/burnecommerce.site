@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719800047;s:6:"expire";i:1719803647;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_782,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-782"
+         data-role="swatch-option-782"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-782]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["781"]},{"id":"10","label":"Medium","products":["778"]},{"id":"11","label":"Large","products":["779"]},{"id":"12","label":"Extra Large","products":["780"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"778":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"779":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"780":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"781":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40}},"productId":"782","chooseText":"Choose an Option...","images":[],"index":{"778":{"159":"10"},"779":{"159":"11"},"780":{"159":"12"},"781":{"159":"9"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"778":"Floral Printed Straight Cotton Kurta-Medium","779":"Floral Printed Straight Cotton Kurta-Large","780":"Floral Printed Straight Cotton Kurta-Extra Large","781":"Floral Printed Straight Cotton Kurta-Small"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "http\u003A\u002F\u002Fburn.loc\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-782]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40}}                    }
+                }
+            }
+        }
+    </script>

@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719800516;s:6:"expire";i:1719804116;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_172,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-172"
+         data-role="swatch-option-172"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-172]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5447","label":"Pink","products":["174","176","178"]},{"id":"7","label":"Blue","products":["185","186","187","188","189","190"]},{"id":"8","label":"Green","products":["179","181","183"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["174","179","185","186"]},{"id":"11","label":"Large","products":["178","183","189","190"]},{"id":"12","label":"Extra Large","products":["176","181","187","188"]}],"position":"1"},"171":{"id":"171","code":"sex","label":"Sex","options":[{"id":"5442","label":"Male","products":["179","181","183","185","187","189"]},{"id":"5443","label":"Famale","products":["174","176","178","186","188","190"]}],"position":"2"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"174":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"176":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"178":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"179":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"181":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"183":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"185":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"186":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"187":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"188":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"189":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"190":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200}},"productId":"172","chooseText":"Choose an Option...","images":[],"index":{"174":{"93":"5447","159":"10","171":"5443"},"176":{"93":"5447","159":"12","171":"5443"},"178":{"93":"5447","159":"11","171":"5443"},"179":{"93":"8","159":"10","171":"5442"},"181":{"93":"8","159":"12","171":"5442"},"183":{"93":"8","159":"11","171":"5442"},"185":{"93":"7","159":"10","171":"5442"},"186":{"93":"7","159":"10","171":"5443"},"187":{"93":"7","159":"12","171":"5442"},"188":{"93":"7","159":"12","171":"5443"},"189":{"93":"7","159":"11","171":"5442"},"190":{"93":"7","159":"11","171":"5443"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"174":"Viet Phuc-Pink-Medium-Famale","176":"Viet Phuc-Pink-Extra Large-Famale","178":"Viet Phuc-Pink-Large-Famale","179":"Viet Phuc-Green-Medium-Male","181":"Viet Phuc-Green-Extra Large-Male","183":"Viet Phuc-Green-Large-Male","185":"Viet Phuc-Blue-Medium-Male","186":"Viet Phuc-Blue-Medium-Famale","187":"Viet Phuc-Blue-Extra Large-Male","188":"Viet Phuc-Blue-Extra Large-Famale","189":"Viet Phuc-Blue-Large-Male","190":"Viet Phuc-Blue-Large-Famale"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "http\u003A\u002F\u002Fburn.loc\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-172]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200}}                    }
+                }
+            }
+        }
+    </script>

@@ -1,3 +1,3 @@
-;var mp_new_product_search = [];
+;var mp_new_product_search = [{"value":"Ninja Shozoku","s":"Ninja Shozoku","c":["53","1","2","58","1","2","53","84","1","2","53","86","1","2","53"],"d":"","p":80,"i":"cache\/b0e30501fa87f24c7ee2beec430d8d6e\/s\/h\/shinobi-shozoku-traditional-ninja-uniform-ninjutsu-uniform_1_2.jpg","u":"ninja-shozoku.html","o":"new_products"},{"value":"Samurai armor Shogun (Kit)","s":"Samurai armor Shogun (Kit)","c":["53","1","2","58","1","2","53","84","1","2","53"],"d":"","p":667,"i":"cache\/b0e30501fa87f24c7ee2beec430d8d6e\/i\/l\/il_794xn.6003362934_5x8w.jpg","u":"samurai-armor-shogun-kit.html","o":"new_products"}];
             var mp_most_viewed_products = [];
             var mp_bestsellers = [];
