@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719817012;s:6:"expire";i:1751353012;s:4:"tags";s:37:"151_LAYOUT_GENERAL_CACHE_TAG,151_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719827557;s:6:"expire";i:1751363557;s:4:"tags";s:37:"151_LAYOUT_GENERAL_CACHE_TAG,151_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_system_config_edit" layout="admin-2columns-left"><body>
    <referenceContainer name="js">
@@ -8109,6 +8109,51 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719817012;s:6:"expire";i:1751353012;s:4:"t
 </layout><handle id="adminhtml_system_config_edit"><head>
    <css src="jquery/colorpicker/css/colorpicker.css"/>
 </head>
+</handle><handle id="default"><head>
+   <css src="Lof_All::css/styles.css"/>
+</head>
+</handle><handle id="default"><head>
+   <css src="Lof_ChatSystem::css/font-awesome.min.css"/>
+   <css src="Lof_ChatSystem::css/styles.css"/>
+</head>
+<body>
+   <referenceContainer name="content">
+      <block class="Lof\ChatSystem\Block\Adminhtml\Notifications\Chat" name="notifications_chat" template="notifications/chat.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="lofchatsystem_admin_default"><head>
+   <css src="Lof_ChatSystem::css/styles.css"/>
+</head>
+<body>
+        
+    </body>
+</handle><handle id="lofchatsystem_blacklist_edit"><update handle="styles"/>
+<body>
+   <referenceContainer name="content">
+      <uiComponent name="lofchatsystem_blacklist_form"/>
+   </referenceContainer>
+</body>
+</handle><handle id="lofchatsystem_blacklist_index"><body>
+   <referenceContainer name="content">
+      <uiComponent name="lofchatsystem_blacklist_listing"/>
+   </referenceContainer>
+</body>
+</handle><handle id="lofchatsystem_chat_edit" layout="admin-2columns-left"><update handle="editor"/>
+<update handle="lofchatsystem_admin_default"/>
+<body>
+   <referenceContainer name="content">
+      <block class="Lof\ChatSystem\Block\Adminhtml\Chat\Edit" name="lofchatsystem_chat_edit"/>
+   </referenceContainer>
+   <referenceContainer name="left">
+      <block class="Lof\ChatSystem\Block\Adminhtml\Chat\Edit\Tabs" name="lofchatsystem_chat_edit_tabs"/>
+   </referenceContainer>
+</body>
+</handle><handle id="lofchatsystem_chat_index"><update handle="lofchatsystem_admin_default"/>
+<body>
+   <referenceContainer name="content">
+      <uiComponent name="lofchatsystem_chat_listing"/>
+   </referenceContainer>
+</body>
 </handle><handle id="adminhtml_system_config_edit"><head>
    <script src="Mageplaza_Core::js/jscolor.min.js"/>
    <css src="jquery/colorpicker/css/colorpicker.css"/>
