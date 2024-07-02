@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
     <system>
-        <tab id="landofcoder" translate="label" sortOrder="300">
-            <label>Landofcoder</label>
+        <tab id="landofcoder" translate="label" sortOrder="1">
+            <label>Live Chat</label>
         </tab>
         <section id="lofchatsystem" translate="label" type="text" sortOrder="120" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>Live Chat System</label>
+            <label>Config</label>
             <tab>landofcoder</tab>
             <resource>Lof_ChatSystem::config_chatsystem</resource>
             <group id="general_settings" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">

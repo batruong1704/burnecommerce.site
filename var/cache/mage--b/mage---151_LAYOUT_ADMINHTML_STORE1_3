@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719827557;s:6:"expire";i:1751363557;s:4:"tags";s:37:"151_LAYOUT_GENERAL_CACHE_TAG,151_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719904966;s:6:"expire";i:1751440966;s:4:"tags";s:37:"151_LAYOUT_GENERAL_CACHE_TAG,151_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_system_config_edit" layout="admin-2columns-left"><body>
    <referenceContainer name="js">
@@ -8106,9 +8106,48 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719827557;s:6:"expire";i:1751363557;s:4:"t
    </block>
    <block class="Magento\Catalog\Block\Adminhtml\Product\Composite\Configure" template="Magento_Catalog::catalog/product/composite/configure.phtml" name="configure.popup"/>
 </container>
-</layout><handle id="adminhtml_system_config_edit"><head>
+</layout><handle id="admin_login" layout="admin-login"><body>
+   <referenceBlock name="logo">
+      <arguments>
+         <argument name="logo_image_src" xsi:type="string">images/burn.png</argument>
+      </arguments>
+   </referenceBlock>
+</body>
+</handle><handle id="adminhtml_system_config_edit"><head>
    <css src="jquery/colorpicker/css/colorpicker.css"/>
 </head>
+</handle><handle id="default" layout="admin-1column"><body>
+   <referenceContainer name="header">
+      <block class="Magento\Backend\Block\Page\Header" name="logo" before="-">
+         <arguments>
+            <argument name="show_part" xsi:type="string">logo</argument>
+            <argument name="edition" xsi:type="string">eBurn</argument>
+            <argument name="logo_image_src" xsi:type="string">images/burn-logo.png</argument>
+         </arguments>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="default"><head>
+   <css src="Extension_GiftCard::css/giftcard.css"/>
+</head>
+</handle><handle id="giftcard_code_edit" layout="admin-2columns-left"><update handle="styles"/>
+<body>
+   <referenceContainer name="content">
+      <uiComponent name="giftcard_code_form"/>
+   </referenceContainer>
+</body>
+</handle><handle id="giftcard_code_index"><update handle="styles"/>
+<body>
+   <referenceContainer name="content">
+      <uiComponent name="extension_giftcard_code_listing"/>
+   </referenceContainer>
+</body>
+</handle><handle id="giftcard_code_new" layout="admin-2columns-left"><update handle="styles"/>
+<body>
+   <referenceContainer name="content">
+      <uiComponent name="giftcard_code_new"/>
+   </referenceContainer>
+</body>
 </handle><handle id="default"><head>
    <css src="Lof_All::css/styles.css"/>
 </head>
@@ -8155,6 +8194,17 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719827557;s:6:"expire";i:1751363557;s:4:"t
    </referenceContainer>
 </body>
 </handle><handle id="adminhtml_system_config_edit"><head>
+   <css src="MagePal_Core::css/config.css"/>
+</head>
+<body>
+   <referenceContainer name="content">
+      <block class="MagePal\Core\Block\Adminhtml\Badge" name="magepal_email_edit" template="MagePal_Core::badge.phtml"/>
+   </referenceContainer>
+</body>
+</handle><layout id="magepalsmtp_validateconfig_index"><container name="root">
+   <block class="MagePal\GmailSmtpApp\Block\Adminhtml\ValidateConfig" name="magepal.smtp_validate" template="MagePal_GmailSmtpApp::validateConfig/result.phtml"/>
+</container>
+</layout><handle id="adminhtml_system_config_edit"><head>
    <script src="Mageplaza_Core::js/jscolor.min.js"/>
    <css src="jquery/colorpicker/css/colorpicker.css"/>
 </head>
@@ -8173,37 +8223,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1719827557;s:6:"expire";i:1751363557;s:4:"t
          <argument name="after" xsi:type="string">front</argument>
       </action>
    </referenceBlock>
-</body>
-</handle><handle id="adminhtml_smtp_abandonedcart"><update handle="styles"/>
-<body>
-   <referenceContainer name="content">
-      <uiComponent name="mpsmtp_abandoned_cart_grid"/>
-   </referenceContainer>
-</body>
-</handle><handle id="adminhtml_smtp_abandonedcart_view"><update handle="editor"/>
-<update handle="sales_order_create_item_price"/>
-<body>
-   <referenceContainer name="content">
-      <block class="Mageplaza\Smtp\Block\Adminhtml\AbandonedCart\Edit" name="mageplaza_giftcard_code_edit"/>
-   </referenceContainer>
-</body>
-</handle><handle id="adminhtml_smtp_log"><update handle="styles"/>
-<head>
-   <css src="Mageplaza_Smtp::css/style.css"/>
-</head>
-<body>
-   <referenceContainer name="content">
-      <uiComponent name="mpsmtp_emails_log_grid"/>
-   </referenceContainer>
-</body>
-</handle><handle id="adminhtml_smtp_marketing"><head>
-   <css src="Mageplaza_Smtp::css/iframe.css"/>
-</head>
-<update handle="styles"/>
-<body>
-   <referenceContainer name="content">
-      <block class="Magento\Backend\Block\Template" name="smtp_marketing" template="Mageplaza_Smtp::marketing.phtml" cacheable="false"/>
-   </referenceContainer>
 </body>
 </handle><handle id="adminhtml_system_config_edit"><head>
    <css src="PayPal_Braintree::styles.css"/>

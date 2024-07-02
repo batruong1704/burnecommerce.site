@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set colors for formatting output
-GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
 NC='\033[0m' # No Color
 
 # Function to print centered text
@@ -16,25 +16,24 @@ echo
 echo
 print_center "Start Deploy"
 
-echo "${GREEN}## 1/5. Upgrade site${NC}"
+echo "${YELLOW}## 1/5. Upgrade site${NC}"
 sudo php bin/magento setup:upgrade
 echo
 
-echo "${GREEN}## 2/5. Di compile${NC}"
+echo "${YELLOW}## 2/5. Di compile${NC}"
 sudo bin/magento setup:di:compile
 echo
-echo "${GREEN}## 3/5. Static content deploy${NC}"
+echo "${YELLOW}## 3/5. Static content deploy${NC}"
 sudo bin/magento setup:static-content:deploy -f
 
-
 echo
-echo "${GREEN}## 4/5. Flush cache${NC}"
+echo "${YELLOW}## 4/5. Flush cache${NC}"
 sudo bin/magento cache:flush
 
 # Print a blank line
 echo
 
-echo "${GREEN}## 5/5. Setup permission${NC}"
+echo "${YELLOW}## 5/5. Setup permission${NC}"
 sh ./set-permission.sh
 
 print_center "SUCCESS"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Extension_GiftCard::giftcard" title="Extension" module="Extension_GiftCard" sortOrder="21"
+             resource="Extension_GiftCard::giftcard"/>
+        <add id="Extension_GiftCard::section1" title="Gift Card"
+             module="Extension_GiftCard"
+             parent="Extension_GiftCard::giftcard" resource="Extension_GiftCard::giftcard"
+             sortOrder="1"/>
+        <add id="Extension_GiftCard:::code" parent="Extension_GiftCard::section1"
+             title="Manage Codes" module="Extension_GiftCard" resource="Extension_GiftCard::code"
+             sortOrder="1" action="giftcard/code/index"/>
+        <add id="Extension_GiftCard::giftcard_configuration" parent="Extension_GiftCard::section1"
+             title="Configuration" module="Extension_GiftCard" resource="Extension_GiftCard::giftcard_configuration"
+             sortOrder="2" action="adminhtml/system_config/edit/section/giftcard"/>
+    </menu>
+</config>

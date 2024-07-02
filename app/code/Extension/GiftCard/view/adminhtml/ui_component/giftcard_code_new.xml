@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">giftcard_code_new.giftcard_code_new_data_source</item>
+            <item name="deps" xsi:type="string">giftcard_code_new.giftcard_code_new_data_source</item>
+        </item>
+        <item name="label" xsi:type="string" translate="true">GiftCard Information</item>
+        <item name="config" xsi:type="array">
+            <item name="dataScope" xsi:type="string">data</item>
+            <item name="namespace" xsi:type="string">giftcard_code_new</item>
+        </item>
+        <item name="spinner" xsi:type="string">general_information</item>
+    </argument>
+    <settings>
+        <layout>
+            <navContainerName>left</navContainerName>
+            <type>tabs</type>
+        </layout>
+        <buttons>
+            <button name="reset" class="Extension\GiftCard\Block\Adminhtml\Code\Edit\Buttons\Reset"/>
+            <button name="save_and_continue" class="Extension\GiftCard\Block\Adminhtml\Code\Edit\Buttons\SaveAndContinue"/>
+            <button name="save" class="Extension\GiftCard\Block\Adminhtml\Code\Edit\Buttons\Save"/>
+            <button name="back">
+                <url path="*/*/"/>
+                <class>back</class>
+                <label translate="true">Back</label>
+            </button>
+        </buttons>
+    </settings>
+    <dataSource name="giftcard_code_new_data_source">
+        <argument name="dataProvider" xsi:type="configurableObject">
+            <argument name="class" xsi:type="string">Extension\GiftCard\Model\DataProvider</argument>
+            <argument name="name" xsi:type="string">giftcard_code_new_data_source</argument>
+            <argument name="primaryFieldName" xsi:type="string">giftcard_id</argument>
+            <argument name="requestFieldName" xsi:type="string">id</argument>
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="submit_url" xsi:type="url" path="*/*/save" />
+                </item>
+            </argument>
+        </argument>
+        <argument name="data" xsi:type="array">
+            <item name="js_config" xsi:type="array">
+                <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
+            </item>
+        </argument>
+    </dataSource>
+    <fieldset name="giftcard">
+        <argument name="data" xsi:type="array">
+            <item name="config" xsi:type="array">
+                <item name="collapsible" xsi:type="boolean">false</item>
+                <item name="label" xsi:type="string" translate="true">GiftCard Information</item>
+                <item name="sortOrder" xsi:type="number">20</item>
+            </item>
+        </argument>
+
+        <field name="giftcard_id">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">GiftCard id</item>
+                    <item name="visible" xsi:type="boolean">false</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="source" xsi:type="string">giftcard_id</item>
+                    <item name="dataScope" xsi:type="string">giftcard_id</item>
+                </item>
+            </argument>
+        </field>
+
+        <field name="code_length"
+               class="Extension\GiftCard\Ui\Component\Field\ConfigurableDefaultValue"
+               formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="defaultValueConfigPath" xsi:type="string">
+                        giftcard/general/codelength
+                    </item>
+                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="label" xsi:type="string" translate="true">Code Length</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                        <item name="validate-number" xsi:type="boolean">true</item>
+                        <item name="validate-greater-than-zero" xsi:type="boolean">true</item>
+                    </item>
+                    <item name="placeholder" xsi:type="string">Enter code length</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                </item>
+                <item name="source" xsi:type="string">giftcard_information</item>
+            </argument>
+        </field>
+
+        <field name="balance" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="label" xsi:type="string" translate="true">Balance</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="source" xsi:type="string">balance</item>
+                    <item name="dataScope" xsi:type="string">balance</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                        <item name="validate-number" xsi:type="boolean">true</item>
+                        <item name="validate-zero-or-greater" xsi:type="boolean">true</item>
+                    </item>
+                    <item name="placeholder" xsi:type="string">Enter balance</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                </item>
+            </argument>
+        </field>
+    </fieldset>
+</form>

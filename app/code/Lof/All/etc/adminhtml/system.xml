@@ -1,31 +1,10 @@
 <?xml version="1.0"?>
-<!--
-/**
- * Landofcoder
- * 
- * NOTICE OF LICENSE
- * 
- * This source file is subject to the landofcoder.com license that is
- * available through the world-wide-web at this URL:
- * https://landofcoder.com/license
- * 
- * DISCLAIMER
- * 
- * Do not edit or add to this file if you wish to upgrade this extension to newer
- * version in the future.
- * 
- * @category   Landofcoder
- * @package    Lof_All
- * @copyright  Copyright (c) 2017 Landofcoder (https://www.landofcoder.com/)
- * @license    https://www.landofcoder.com/LICENSE-1.0.html
- */
--->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Config/etc/system_file.xsd">
 	<system>
-		 <tab id="landofcoder" translate="label" sortOrder="400">
+		 <!-- <tab id="landofcoder" translate="label" sortOrder="400">
             <label>Landofcoder Extensions Setting</label>
-        </tab>
-		<section id="lofall" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+        </tab> -->
+		<!-- <section id="lofall" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
 			<class>separator-top</class>
 			<label>All</label>
 			<tab>landofcoder</tab>
@@ -79,6 +58,6 @@
 					<frontend_model>Lof\All\Block\Adminhtml\System\ListLicense</frontend_model>
 				</field>
 			</group>
-		</section>
+		</section> -->
 	</system>
 </config>
