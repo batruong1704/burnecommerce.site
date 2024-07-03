@@ -1,0 +1,9 @@
+<?php
+/** @var \Extension\GiftCard\Block\GiftcardBalance $block */
+?>
+<div class="giftcard-balance">
+    <label for="giftcard-balance"><?= __('Gift Card Balance') ?></label>
+    <div>
+        <?= $block->escapeHtml($block->getGiftCardBalance()) ?>
+    </div>
+</div>

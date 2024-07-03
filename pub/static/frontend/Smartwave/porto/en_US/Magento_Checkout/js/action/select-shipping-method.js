@@ -1,17 +1,1 @@
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-/**
- * @api
- */
-define([
-    '../model/quote'
-], function (quote) {
-    'use strict';
-
-    return function (shippingMethod) {
-        quote.shippingMethod(shippingMethod);
-    };
-});
+/var/www/burn/htdocs/vendor/magento/module-checkout/view/frontend/web/js/action/select-shipping-method.js
