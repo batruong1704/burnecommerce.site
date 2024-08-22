@@ -1,1 +1,0 @@
-/var/www/burn/htdocs/app/design/frontend/Smartwave/porto/Smartwave_Porto/web/js/animate.js

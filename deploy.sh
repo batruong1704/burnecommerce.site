@@ -17,6 +17,27 @@ echo
 print_center "Start Deploy"
 
 echo "${YELLOW}## 1/5. Upgrade site${NC}"
+sudo bin/magento setup:install \
+--base-url=https://burnecommerce.site/ \
+--db-host=localhost \
+--db-name=burn \
+--db-user=root \
+--db-password=admin \
+--admin-firstname=admin \
+--admin-lastname=admin \
+--admin-email=admin@admin.com \
+--admin-user=admin \
+--admin-password=admin123 \
+--language=en_US \
+--currency=USD \
+--timezone=America/Chicago \
+--use-rewrites=1 \
+--search-engine=elasticsearch7 \
+--elasticsearch-host=localhost \
+--elasticsearch-port=9200 \
+--elasticsearch-index-prefix=magento2 \
+--elasticsearch-timeout=15
+
 sudo php bin/magento setup:upgrade
 echo
 

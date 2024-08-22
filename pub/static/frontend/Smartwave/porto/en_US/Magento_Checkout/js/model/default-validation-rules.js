@@ -1,1 +1,0 @@
-/var/www/burn/htdocs/vendor/magento/module-checkout/view/frontend/web/js/model/default-validation-rules.js

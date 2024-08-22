@@ -1,1 +1,0 @@
-/var/www/burn/htdocs/app/code/Extension/GiftCard/view/frontend/web/js/view/checkout/summary/gc-discount.js

@@ -1,1 +1,0 @@
-/var/www/burn/htdocs/lib/web/js-cookie/cookie-wrapper.js

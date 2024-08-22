@@ -102,47 +102,11 @@ class GiftCardDiscount extends AbstractTotal
 
                 $total->addTotalAmount('gc_discount', $discount);
                 $total->addBaseTotalAmount('gc_discount', $discount);
-                $quote->setCustomDiscount(-$discount);
+//                $quote->setCustomDiscount(-$discount);
             }
         }
 
         return $this;
-    }
-
-    /**
-     * @param Quote $quote
-     * @return int|mixed
-     */
-    public function getDiscountAmount($quote)
-    {
-
-        $availableAmount = $this->updateGiftCardDiscount($quote);
-
-        return min($availableAmount, $quote->getSubtotal()) ?? 0;
-    }
-
-    /**
-     * @param Quote $quote
-     * @return float|int|null
-     */
-    public function updateGiftCardDiscount($quote)
-    {
-        $giftCode = $quote->getGiftCode();
-
-        try {
-            $giftCard = $this->giftCardRepository->getByCode($giftCode);
-        } catch (Exception) {
-            return 0;
-        }
-
-        $availableAmount = $this->helper->getAvailableGiftCardAmount($giftCard);
-
-        if ($availableAmount != $quote->getGiftCodeDiscount()) {
-            $quote->setGiftCodeDiscount($availableAmount);
-            $this->quoteRepository->save($quote);
-        }
-
-        return $availableAmount;
     }
 
     /**
@@ -162,10 +126,33 @@ class GiftCardDiscount extends AbstractTotal
     }
 
     /**
-     * @return Phrase|string
+     * @return Phrase
      */
     public function getLabel()
     {
         return __('Gift Card');
+    }
+
+    /**
+     * @param Quote $quote
+     * @return int|mixed
+     */
+    public function getDiscountAmount(Quote $quote)
+    {
+        $giftCode = $quote->getGiftCode();
+        $giftCard = $this->helper->validateGiftCardCode($giftCode);
+
+        if ($giftCard) {
+            $availableAmount = $this->helper->getAvailableGiftCardAmount($giftCard);
+
+            if ($availableAmount != $quote->getGiftCodeDiscount()) {
+                $quote->setGiftCodeDiscount($availableAmount);
+                $this->quoteRepository->save($quote);
+            }
+
+            return min($availableAmount, $quote->getSubtotalWithDiscount());
+        }
+
+        return 0;
     }
 }

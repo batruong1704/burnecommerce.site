@@ -1,1 +1,0 @@
-/var/www/burn/htdocs/lib/web/jquery/bootstrap/dom/data.js

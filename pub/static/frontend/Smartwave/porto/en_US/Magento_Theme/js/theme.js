@@ -1,1 +1,0 @@
-/var/www/burn/htdocs/app/design/frontend/Smartwave/porto/Magento_Theme/web/js/theme.js

@@ -16,17 +16,21 @@ echo
 echo
 print_center "Start Deploy"
 
-echo "${GREEN}## 1/3. Di compile${NC}"
+echo "${GREEN}## 1/5. Setup-update${NC}"
+sudo bin/magento s:upg
+echo "${GREEN}## 2/5. Di-compile${NC}"
 sudo bin/magento setup:di:compile
 
+echo "${GREEN}## 3/5. s:s:d${NC}"
+sudo bin/magento s:s:d -f
 echo
-echo "${GREEN}## 2/3. Flush cache${NC}"
+echo "${GREEN}## 4/5. Flush cache${NC}"
 sudo bin/magento cache:flush
 
 # Print a blank line
 echo
 
-echo "${GREEN}## 3/3. Setup permission${NC}"
+echo "${GREEN}## 5/5. Setup permission${NC}"
 sh ./set-permission.sh
 
 print_center "SUCCESS"

@@ -1,0 +1,73 @@
+<?php
+
+/** @var \Extension\GiftCard\Block\Website\Switcher $block */
+$websites = $block->getWebsites();
+$websiteId = $block->getWebsite()->getWebsiteId();
+?>
+<div class="switcher store switcher-store" id="switcher-store">
+    <strong class="label switcher-label"><span><?php echo __('Select Store') ?></span></strong>
+    <div class="actions dropdown options switcher-options">
+        <?php foreach ($websites as $website): ?>
+            <?php if ($websiteId == $website->getId()): ?>
+                <div class="action toggle switcher-trigger"
+                     role="button"
+                     tabindex="0"
+                     data-mage-init='{"dropdown"    :{}}'
+                     data-toggle="dropdown"
+                     data-trigger-keypress-button="true"
+                     id="switcher-store-trigger">
+                    <strong>
+                        <span class="<?php echo $website->getCode() ?>"><?php echo $block->escapeHtml($website->getName()) ?></span>
+                    </strong>
+                </div>
+            <?php endif; ?>
+        <?php endforeach; ?>
+        <ul class="dropdown switcher-dropdown" data-target="dropdown">
+            <?php foreach ($websites as $website): ?>
+                <?php if (!($websiteId == $website->getId())): ?>
+                    <li class="website-option switcher-option view">
+                        <a class="<?php echo $website->getCode() ?>" href='<?php echo $website->getDefaultStore()->getBaseUrl() ?>'>
+                            <?php echo $block->escapeHtml($website->getName()) ?>
+                        </a>
+                    </li>
+                <?php endif; ?>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</div>
+
+<style>
+    <?php foreach ($websites as $website): ?>
+        <?php
+            if ($website->getCode() == 'base') {
+                echo ".website-option.switcher-option.view .base:after {
+                                content: url('https://svgur.com/i/14d7.svg');
+                                display: inline-block;
+                                vertical-align: middle;
+                                width: 19px;
+                                float: right;\n}\n";
+                echo ".action.toggle.switcher-trigger strong span.base:after {
+                                content: url('https://svgur.com/i/14d7.svg');
+                                display: inline-block;
+                                vertical-align: middle;
+                                width: 19px;
+                                margin-left: 10px;\n}\n";
+            }else {
+                echo ".website-option.switcher-option.view .".$website->getCode().":after {
+                                content: url('https://flagicons.lipis.dev/flags/4x3/".$website->getCode().".svg');
+                                display: inline-block;
+                                border-bottom: 1px solid;
+                                vertical-align: middle;
+                                width: 19px;
+                                float: right;\n}\n";
+                echo ".action.toggle.switcher-trigger strong span.".$website->getCode().":after{
+                                content: url('https://flagicons.lipis.dev/flags/4x3/".$website->getCode().".svg');
+                                display: inline-block;
+                                border-bottom: 1px solid;
+                                vertical-align: middle;
+                                width: 19px;
+                                margin-left: 10px;\n}\n";
+            }
+        ?>
+    <?php endforeach; ?>
+</style>
