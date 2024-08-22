@@ -21,6 +21,7 @@ use Magento\Customer\Controller\AbstractAccount;
 use Magento\Framework\Phrase;
 use Magento\Customer\Model\CustomerRegistry;
 use Magento\Framework\Stdlib\DateTime\TimezoneInterface;
+
 /**
  * Post login customer action.
  *
@@ -28,31 +29,47 @@ use Magento\Framework\Stdlib\DateTime\TimezoneInterface;
  */
 class LoginPost extends \Magento\Customer\Controller\Account\LoginPost
 {
+    /**
+     * @var CustomerRegistry
+     */
     protected $customerRegistry;
+
+    /**
+     * @var TimezoneInterface
+     */
     protected $timezone;
 
+    /**
+     * @param Context $context
+     * @param Session $customerSession
+     * @param AccountManagementInterface $customerAccountManagement
+     * @param CustomerUrl $customerUrl
+     * @param Validator $formKeyValidator
+     * @param AccountRedirect $accountRedirect
+     * @param CustomerRegistry $customerRegistry
+     * @param TimezoneInterface $timezone
+     * @param ScopeConfigInterface $scopeConfig
+     */
     public function __construct(
         Context $context,
         Session $customerSession,
         AccountManagementInterface $customerAccountManagement,
-        AccountRedirect $accountRedirect,
-        CustomerUrl $customerHelperData,
+        CustomerUrl $customerUrl,
         Validator $formKeyValidator,
-        ScopeConfigInterface $scopeConfig,
+        AccountRedirect $accountRedirect,
         CustomerRegistry $customerRegistry,
         TimezoneInterface $timezone
     ) {
+        $this->customerRegistry = $customerRegistry;
+        $this->timezone = $timezone;
         parent::__construct(
             $context,
             $customerSession,
             $customerAccountManagement,
-            $accountRedirect,
-            $customerHelperData,
+            $customerUrl,
             $formKeyValidator,
-            $scopeConfig
+            $accountRedirect
         );
-        $this->customerRegistry = $customerRegistry;
-        $this->timezone = $timezone;
     }
 
     public function execute()
@@ -76,46 +93,47 @@ class LoginPost extends \Magento\Customer\Controller\Account\LoginPost
                     return $resultRedirect;
                 } catch (EmailNotConfirmedException $e) {
                     $this->messageManager->addErrorMessage($e->getMessage());
-
                 } catch (UserLockedException $e) {
-                    $customer = $this->customerRegistry->retrieveByEmail($login['username']);
-                    $lockExpires = $this->getLockExpirationTime($customer);
-                    $message = __('Tài khoản của bạn đã bị khóa tạm thời. Vui lòng thử lại sau.', $lockExpires);
+                    try {
+                        $customer = $this->customerRegistry->retrieveByEmail($login['username']);
+                        $lockExpires = $customer->getLockExpires();
+                        if ($lockExpires) {
+                            $now = $this->timezone->date()->getTimestamp();
+                            $lockExpiresTimestamp = strtotime($lockExpires);
+                            $diff = $lockExpiresTimestamp - $now;
+                            $hours = floor($diff / 3600);
+                            $minutes = floor(($diff % 3600) / 60);
+                            if($hours == 0) {
+                                $timeRemaining = sprintf('%d minutes', $minutes);
+                            } else {
+                                $timeRemaining = sprintf('%d hours %d minutes', $hours, $minutes);
+                            }
+                            $message = __('Your account is locked. Please try again after %1.', $timeRemaining);
+                        } else {
+                            $message = __('Your account has been locked. Please try again later!');
+                        }
+                    } catch (\Exception $e) {
+                        $message = __('Your account has been locked. Please try again later!');
+                    }
                     $this->messageManager->addErrorMessage($message);
-
                 } catch (AuthenticationException $e) {
-                    $message = __('Thông tin đăng nhập không chính xác. Vui lòng kiểm tra lại email và mật khẩu.');
+                    $message = __('Incorrect email or password, please try again. Note that more than 5 incorrect attempts will result in your account being locked!');
                     $this->messageManager->addErrorMessage($message);
                 } catch (LocalizedException $e) {
                     if ($e->getMessage() == __('This account is locked.')) {
-                        $message = __('Tài khoản của bạn đã bị khóa tạm thời. Vui lòng thử lại sau.');
+                        $message = __('Your account is locked. Please try again later!');
                         $this->messageManager->addErrorMessage($message);
                     } else {
                         $this->messageManager->addErrorMessage($e->getMessage());
                     }
                 } catch (\Exception $e) {
-                    $this->messageManager->addErrorMessage(__('Đã xảy ra lỗi không xác định. Vui lòng thử lại sau.'));
+                    $this->messageManager->addErrorMessage(__('An unknown error occurred. Please try again later!'));
                 }
             } else {
-                $this->messageManager->addErrorMessage(__('Vui lòng nhập tên đăng nhập và mật khẩu.'));
+                $this->messageManager->addErrorMessage(__('Please enter email and password!'));
             }
         }
 
         return $this->accountRedirect->getRedirect();
-    }
-
-    private function getLockExpirationTime($customer)
-    {
-        $lockExpires = $customer->getLockExpires();
-        if ($lockExpires) {
-            $now = $this->timezone->date()->getTimestamp();
-            $lockExpiresTimestamp = strtotime($lockExpires);
-            $diff = $lockExpiresTimestamp - $now;
-            if ($diff > 0) {
-                $minutes = ceil($diff / 60);
-                return $minutes > 1 ? $minutes . ' minutes' : '1 minute';
-            }
-        }
-        return 'a few minutes';
     }
 }

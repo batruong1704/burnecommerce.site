@@ -1,0 +1,28 @@
+<!--The 'step_code' value from the .js file should be used-->
+<li id="contact" data-bind="fadeVisible: visible()">
+    <div class="step-title" data-bind="i18n: 'Checkout First Step'" data-role="title"></div>
+    <div id="checkout-step-first"
+         class="step-content"
+         data-role="content">
+        <form data-bind="submit: setFormInformation" data-validate="{required:true}" novalidate="novalidate">
+            <div id="contact-form" class="fieldset address">
+                <!-- ko foreach: getRegion('contact-form-fields') -->
+                <!-- ko template: getTemplate() --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+            <div class="actions-toolbar">
+                <div class="primary">
+                    <button data-role="opc-continue" type="submit" class="button action continue primary">
+                        <span><!-- ko i18n: 'Next'--><!-- /ko --></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</li>
+
+<style>
+    .date-field {
+        width: auto;
+    }
+</style>

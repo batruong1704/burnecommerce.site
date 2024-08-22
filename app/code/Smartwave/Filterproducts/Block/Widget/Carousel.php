@@ -150,12 +150,39 @@ class Carousel extends \Magento\Catalog\Block\Product\ListProduct implements \Ma
                       'dai.sw_date_to >= "'.$this->getDayDate().'" or dai.sw_date_to IS NULL'
                   );
               break;
-          case 'category_6_products':
-              $collection->addCategoriesFilter(['eq' => 6]);
-              break;
-          default:
-              $collection->addAttributeToSort('created_at','desc');
-              break;
+              case 'category_25_products':
+                $collection->addCategoriesFilter(['eq' => 25]);
+                break;
+            case 'category_6_products':
+                $collection->addCategoriesFilter(['eq' => 6]);
+                break;
+                case 'category_84_products':
+                  $collection->addCategoriesFilter(['eq' => 84]);
+                  break;
+              case 'category_171_products':
+                  $collection->addCategoriesFilter(['eq' => 171]);
+                  break;
+              case 'category_167_products':
+                  $collection->addCategoriesFilter(['eq' => 167]);
+                  break;
+              case 'category_177_products':
+                  $collection->addCategoriesFilter(['eq' => 177]);
+                  break;
+              case 'category_30_products':
+                  $collection->addCategoriesFilter(['eq' => 30]);
+                  break;
+              case 'category_64_products':
+                  $collection->addCategoriesFilter(['eq' => 64]);
+                  break;
+              case 'category_52_products':
+                  $collection->addCategoriesFilter(['eq' => 52]);
+                  break;
+              case 'category_48_products':
+                  $collection->addCategoriesFilter(['eq' => 48]);
+                  break;
+            default:
+                $collection->addAttributeToSort('created_at','desc');
+                break;
       }
 
       $collection->setPageSize($this->getPageSize())

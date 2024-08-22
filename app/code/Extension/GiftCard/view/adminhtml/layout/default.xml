@@ -3,4 +3,16 @@
     <head>
         <css src="Extension_GiftCard::css/giftcard.css"/>
     </head>
+<body>
+<referenceContainer name="header">
+            <block class="Magento\Backend\Block\Page\Header" name="logo" before="-">
+                <arguments>
+                    <argument name="show_part" xsi:type="string">logo</argument>
+                    <argument name="edition" xsi:type="string">eBurn</argument>
+                    <argument name="logo_image_src" xsi:type="string">images/burn-logo.png</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+ 
 </page>
