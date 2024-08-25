@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1724559840;s:6:"expire";i:1724563440;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_604,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-604"
+         data-role="swatch-option-604"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-604]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"186":{"id":"186","code":"shoe_size","label":"Shoe size","options":[{"id":"5477","label":"37","products":["651"]},{"id":"5478","label":"38","products":["652"]},{"id":"5479","label":"39","products":["653"]},{"id":"5480","label":"40","products":["654"]},{"id":"5481","label":"41","products":["655"]},{"id":"5482","label":"42","products":["656"]},{"id":"5483","label":"43","products":["657"]},{"id":"5484","label":"44","products":["658"]}],"position":"0"},"171":{"id":"171","code":"sex","label":"Sex","options":[{"id":"5444","label":"Unisex","products":["651","652","653","654","655","656","657","658"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"651":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"652":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"653":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"654":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"655":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"656":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"657":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"658":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40}},"productId":"604","chooseText":"Choose an Option...","images":[],"index":{"651":{"186":"5477","171":"5444"},"652":{"186":"5478","171":"5444"},"653":{"186":"5479","171":"5444"},"654":{"186":"5480","171":"5444"},"655":{"186":"5481","171":"5444"},"656":{"186":"5482","171":"5444"},"657":{"186":"5483","171":"5444"},"658":{"186":"5484","171":"5444"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"651":"Zori Sandals Asanoha-37-Unisex","652":"Zori Sandals Asanoha-38-Unisex","653":"Zori Sandals Asanoha-39-Unisex","654":"Zori Sandals Asanoha-40-Unisex","655":"Zori Sandals Asanoha-41-Unisex","656":"Zori Sandals Asanoha-42-Unisex","657":"Zori Sandals Asanoha-43-Unisex","658":"Zori Sandals Asanoha-44-Unisex"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-604]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40}}                    }
+                }
+            }
+        }
+    </script>

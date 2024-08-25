@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1724559823;s:6:"expire";i:1724563423;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_685,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-685"
+         data-role="swatch-option-685"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-685]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["680"]},{"id":"10","label":"Medium","products":["681"]},{"id":"11","label":"Large","products":["682"]},{"id":"12","label":"Extra Large","products":["683"]},{"id":"5440","label":"Double Extra Large","products":["684"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"680":{"baseOldPrice":{"amount":98},"oldPrice":{"amount":98},"basePrice":{"amount":98},"finalPrice":{"amount":98},"tierPrices":[],"msrpPrice":{"amount":0}},"681":{"baseOldPrice":{"amount":98},"oldPrice":{"amount":98},"basePrice":{"amount":98},"finalPrice":{"amount":98},"tierPrices":[],"msrpPrice":{"amount":0}},"682":{"baseOldPrice":{"amount":98},"oldPrice":{"amount":98},"basePrice":{"amount":98},"finalPrice":{"amount":98},"tierPrices":[],"msrpPrice":{"amount":0}},"683":{"baseOldPrice":{"amount":98},"oldPrice":{"amount":98},"basePrice":{"amount":98},"finalPrice":{"amount":98},"tierPrices":[],"msrpPrice":{"amount":0}},"684":{"baseOldPrice":{"amount":98},"oldPrice":{"amount":98},"basePrice":{"amount":98},"finalPrice":{"amount":98},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":98},"oldPrice":{"amount":98},"basePrice":{"amount":98},"finalPrice":{"amount":98}},"productId":"685","chooseText":"Choose an Option...","images":[],"index":{"680":{"159":"9"},"681":{"159":"10"},"682":{"159":"11"},"683":{"159":"12"},"684":{"159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"680":"Traditional Japanese Samurai Kimono Set \"Tenno\" for men-Small","681":"Traditional Japanese Samurai Kimono Set \"Tenno\" for men-Medium","682":"Traditional Japanese Samurai Kimono Set \"Tenno\" for men-Large","683":"Traditional Japanese Samurai Kimono Set \"Tenno\" -ELarge","684":"Traditional Japanese Samurai Kimono Set \"Tenno\"-D E Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-685]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":98},"oldPrice":{"amount":98},"basePrice":{"amount":98},"finalPrice":{"amount":98}}                    }
+                }
+            }
+        }
+    </script>

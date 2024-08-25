@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1724560118;s:6:"expire";i:1724563718;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_213,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-213"
+         data-role="swatch-option-213"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-213]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"4","label":"White","products":["210","211","212"]},{"id":"6","label":"Red","products":["207","208","209"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["208","211"]},{"id":"11","label":"Large","products":["207","210"]},{"id":"12","label":"Extra Large","products":["209","212"]}],"position":"1"},"171":{"id":"171","code":"sex","label":"Sex","options":[{"id":"5444","label":"Unisex","products":["207","208","209","210","211","212"]}],"position":"2"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"207":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"208":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"209":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"210":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"211":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"212":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200}},"productId":"213","chooseText":"Choose an Option...","images":[],"index":{"207":{"93":"6","159":"11","171":"5444"},"208":{"93":"6","159":"10","171":"5444"},"209":{"93":"6","159":"12","171":"5444"},"210":{"93":"4","159":"11","171":"5444"},"211":{"93":"4","159":"10","171":"5444"},"212":{"93":"4","159":"12","171":"5444"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"207":"Traditional Vietnamese wedding attire-Red-Large-Unisex","208":"Traditional Vietnamese wedding attire-Red-Medium-Unisex","209":"Traditional Vietnamese wedding attire-Red-Extra Large-Unisex","210":"Traditional Vietnamese wedding attire-White-Large-Unisex","211":"Traditional Vietnamese wedding attire-White-Medium-Unisex","212":"Traditional Vietnamese wedding attire-White-Extra Large-Unisex"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-213]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200}}                    }
+                }
+            }
+        }
+    </script>
