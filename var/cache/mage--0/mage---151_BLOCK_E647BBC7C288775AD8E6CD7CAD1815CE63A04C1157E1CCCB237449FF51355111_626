@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726035295;s:6:"expire";i:1726038895;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_626,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-626"
+         data-role="swatch-option-626"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-626]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"171":{"id":"171","code":"sex","label":"Sex","options":[{"id":"5443","label":"Famale","products":["618","619","620","621","622","623","624","625"]}],"position":"0"},"186":{"id":"186","code":"shoe_size","label":"Shoe size","options":[{"id":"5477","label":"37","products":["618"]},{"id":"5478","label":"38","products":["619"]},{"id":"5479","label":"39","products":["620"]},{"id":"5480","label":"40","products":["621"]},{"id":"5481","label":"41","products":["622"]},{"id":"5482","label":"42","products":["623"]},{"id":"5483","label":"43","products":["624"]},{"id":"5484","label":"44","products":["625"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"618":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61},"tierPrices":[],"msrpPrice":{"amount":0}},"619":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61},"tierPrices":[],"msrpPrice":{"amount":0}},"620":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61},"tierPrices":[],"msrpPrice":{"amount":0}},"621":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61},"tierPrices":[],"msrpPrice":{"amount":0}},"622":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61},"tierPrices":[],"msrpPrice":{"amount":0}},"623":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61},"tierPrices":[],"msrpPrice":{"amount":0}},"624":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61},"tierPrices":[],"msrpPrice":{"amount":0}},"625":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61}},"productId":"626","chooseText":"Choose an Option...","images":[],"index":{"618":{"171":"5443","186":"5477"},"619":{"171":"5443","186":"5478"},"620":{"171":"5443","186":"5479"},"621":{"171":"5443","186":"5480"},"622":{"171":"5443","186":"5481"},"623":{"171":"5443","186":"5482"},"624":{"171":"5443","186":"5483"},"625":{"171":"5443","186":"5484"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"618":"Women's Ippon Geta - Aoi Koi-Famale-37","619":"Women's Ippon Geta - Aoi Koi-Famale-38","620":"Women's Ippon Geta - Aoi Koi-Famale-39","621":"Women's Ippon Geta - Aoi Koi-Famale-40","622":"Women's Ippon Geta - Aoi Koi-Famale-41","623":"Women's Ippon Geta - Aoi Koi-Famale-42","624":"Women's Ippon Geta - Aoi Koi-Famale-43","625":"Women's Ippon Geta - Aoi Koi-Famale-44"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-626]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":61},"oldPrice":{"amount":61},"basePrice":{"amount":61},"finalPrice":{"amount":61}}                    }
+                }
+            }
+        }
+    </script>

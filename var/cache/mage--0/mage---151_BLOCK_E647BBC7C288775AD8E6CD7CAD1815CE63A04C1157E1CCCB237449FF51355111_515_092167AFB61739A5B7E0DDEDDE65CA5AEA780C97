@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725797783;s:6:"expire";i:1725801383;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_515,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-515"
+         data-role="swatch-option-515"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-515]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"4","label":"White","products":["516"]},{"id":"7","label":"Blue","products":["517"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"516":{"baseOldPrice":{"amount":450},"oldPrice":{"amount":450},"basePrice":{"amount":450},"finalPrice":{"amount":450},"tierPrices":[],"msrpPrice":{"amount":0}},"517":{"baseOldPrice":{"amount":450},"oldPrice":{"amount":450},"basePrice":{"amount":450},"finalPrice":{"amount":450},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":450},"oldPrice":{"amount":450},"basePrice":{"amount":450},"finalPrice":{"amount":450}},"productId":"515","chooseText":"Choose an Option...","images":[],"index":{"516":{"93":"4"},"517":{"93":"7"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"516":"Tozando Full Custom Iaito - Suzaku-White","517":"Tozando Full Custom Iaito - Suzaku-Blue"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-515]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":450},"oldPrice":{"amount":450},"basePrice":{"amount":450},"finalPrice":{"amount":450}}                    }
+                }
+            }
+        }
+    </script>

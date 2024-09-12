@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725823712;s:6:"expire";i:1725827312;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_462,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-462"
+         data-role="swatch-option-462"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-462]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["458"]},{"id":"5441","label":"Yellow","products":["460"]},{"id":"7","label":"Blue","products":["459"]},{"id":"8","label":"Green","products":["461"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"458":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}},"459":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}},"460":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}},"461":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5}},"productId":"462","chooseText":"Choose an Option...","images":[],"index":{"458":{"93":"6"},"459":{"93":"7"},"460":{"93":"5441"},"461":{"93":"8"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"458":"Kinchaku-Red","459":"Kinchaku-Blue","460":"Kinchaku-Yellow","461":"Kinchaku-Green"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-462]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5}}                    }
+                }
+            }
+        }
+    </script>

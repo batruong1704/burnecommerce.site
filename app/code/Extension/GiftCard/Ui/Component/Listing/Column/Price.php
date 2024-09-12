@@ -2,8 +2,6 @@
 
 namespace Extension\GiftCard\Ui\Component\Listing\Column;
 
-use Magento\Framework\Currency\Exception\CurrencyException;
-use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\View\Element\UiComponentFactory;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;
 
@@ -45,8 +43,6 @@ class Price extends \Magento\Ui\Component\Listing\Columns\Column
      *
      * @param array $dataSource
      * @return array
-     * @throws CurrencyException
-     * @throws NoSuchEntityException
      */
     public function prepareDataSource(array $dataSource)
     {

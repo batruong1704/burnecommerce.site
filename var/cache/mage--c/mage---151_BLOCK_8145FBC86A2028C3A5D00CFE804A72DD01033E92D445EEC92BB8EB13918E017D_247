@@ -1,0 +1,19 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725731200;s:6:"expire";i:1725734800;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_247,151_CAT_P,151_MAGE";}
+<div class="swatch-opt" data-role="swatch-options"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-options]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5447","label":"Pink","products":["245"]},{"id":"8","label":"Green","products":["246"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"245":{"baseOldPrice":{"amount":9.84},"oldPrice":{"amount":9.84},"basePrice":{"amount":9.84},"finalPrice":{"amount":9.84},"tierPrices":[],"msrpPrice":{"amount":0}},"246":{"baseOldPrice":{"amount":9.84},"oldPrice":{"amount":9.84},"basePrice":{"amount":9.84},"finalPrice":{"amount":9.84},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":9.84},"oldPrice":{"amount":9.84},"basePrice":{"amount":9.84},"finalPrice":{"amount":9.84}},"productId":"247","chooseText":"Choose an Option...","images":{"245":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/c\/a\/ca-heo-hong.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/c\/a\/ca-heo-hong.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/c\/a\/ca-heo-hong.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"246":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/c\/a\/ca-heo-xanh.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/c\/a\/ca-heo-xanh.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/c\/a\/ca-heo-xanh.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}]},"index":{"245":{"93":"5447"},"246":{"93":"8"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"245":"Pillow Feso-Pink","246":"Pillow Feso-Green"}},
+                "jsonSwatchConfig": {"93":{"5447":{"type":"2","value":"https:\/\/burnecommerce.site\/media\/attribute\/swatch\/swatch_image\/30x20\/c\/o\/color_pink.jpeg","thumb":"https:\/\/burnecommerce.site\/media\/attribute\/swatch\/swatch_thumb\/110x90\/c\/o\/color_pink.jpeg","label":"Pink"},"8":{"type":"1","value":"#43c23c","label":"Green"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "gallerySwitchStrategy": "prepend",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        },
+        "*" : {
+            "Magento_Swatches/js/catalog-add-to-cart": {}
+        }
+    }
+</script>

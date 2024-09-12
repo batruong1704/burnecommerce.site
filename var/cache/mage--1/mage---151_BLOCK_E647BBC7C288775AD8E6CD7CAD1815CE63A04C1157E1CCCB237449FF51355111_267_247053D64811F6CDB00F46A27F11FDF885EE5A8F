@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725848783;s:6:"expire";i:1725852383;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_267,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-267"
+         data-role="swatch-option-267"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-267]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5","label":"Black","products":["264","265","266"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["264"]},{"id":"11","label":"Large","products":["265"]},{"id":"12","label":"Extra Large","products":["266"]}],"position":"1"},"171":{"id":"171","code":"sex","label":"Sex","options":[{"id":"5444","label":"Unisex","products":["264","265","266"]}],"position":"2"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"264":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"265":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"266":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80}},"productId":"267","chooseText":"Choose an Option...","images":[],"index":{"264":{"93":"5","159":"10","171":"5444"},"265":{"93":"5","159":"11","171":"5444"},"266":{"93":"5","159":"12","171":"5444"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"264":"Ninja Shozoku-Black-Medium-Unisex","265":"Ninja Shozoku-Black-Large-Unisex","266":"Ninja Shozoku-Black-Extra Large-Unisex"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-267]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80}}                    }
+                }
+            }
+        }
+    </script>

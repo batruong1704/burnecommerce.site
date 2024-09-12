@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1724315900;s:6:"expire";i:1755851900;s:4:"tags";s:37:"151_LAYOUT_GENERAL_CACHE_TAG,151_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725443715;s:6:"expire";i:1756979715;s:4:"tags";s:37:"151_LAYOUT_GENERAL_CACHE_TAG,151_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_system_config_edit" layout="admin-2columns-left"><body>
    <referenceContainer name="js">
@@ -8106,45 +8106,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1724315900;s:6:"expire";i:1755851900;s:4:"t
    </block>
    <block class="Magento\Catalog\Block\Adminhtml\Product\Composite\Configure" template="Magento_Catalog::catalog/product/composite/configure.phtml" name="configure.popup"/>
 </container>
-</layout><handle id="admin_login" layout="admin-login"><body>
-   <referenceBlock name="logo">
-      <arguments>
-         <argument name="logo_image_src" xsi:type="string">images/burn.png</argument>
-      </arguments>
-   </referenceBlock>
-</body>
-</handle><handle id="default"><head>
-   <css src="Extension_GiftCard::css/giftcard.css"/>
+</layout><handle id="adminhtml_system_config_edit"><head>
+   <css src="jquery/colorpicker/css/colorpicker.css"/>
 </head>
-<body>
-   <referenceContainer name="header">
-      <block class="Magento\Backend\Block\Page\Header" name="logo" before="-">
-         <arguments>
-            <argument name="show_part" xsi:type="string">logo</argument>
-            <argument name="edition" xsi:type="string">eBurn</argument>
-            <argument name="logo_image_src" xsi:type="string">images/burn-logo.png</argument>
-         </arguments>
-      </block>
-   </referenceContainer>
-</body>
-</handle><handle id="giftcard_code_edit" layout="admin-2columns-left"><update handle="styles"/>
-<body>
-   <referenceContainer name="content">
-      <uiComponent name="giftcard_code_form"/>
-   </referenceContainer>
-</body>
-</handle><handle id="giftcard_code_index"><update handle="styles"/>
-<body>
-   <referenceContainer name="content">
-      <uiComponent name="extension_giftcard_code_listing"/>
-   </referenceContainer>
-</body>
-</handle><handle id="giftcard_code_new" layout="admin-2columns-left"><update handle="styles"/>
-<body>
-   <referenceContainer name="content">
-      <uiComponent name="giftcard_code_new"/>
-   </referenceContainer>
-</body>
 </handle><handle id="default"><head>
    <css src="Lof_All::css/styles.css"/>
 </head>

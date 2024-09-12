@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725777341;s:6:"expire";i:1725780941;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_447,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-447"
+         data-role="swatch-option-447"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-447]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["453","454","455","456","457"]},{"id":"5441","label":"Yellow","products":["436","437","438","439","440"]},{"id":"7","label":"Blue","products":["448","449","450","451","452"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["436","448","453"]},{"id":"10","label":"Medium","products":["437","449","454"]},{"id":"11","label":"Large","products":["438","450","455"]},{"id":"12","label":"Extra Large","products":["439","451","456"]},{"id":"5440","label":"Double Extra Large","products":["440","452","457"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"436":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"437":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"438":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"439":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"440":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"448":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"449":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"450":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"451":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"452":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"453":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"454":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"455":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"456":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}},"457":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20}},"productId":"447","chooseText":"Choose an Option...","images":[],"index":{"436":{"93":"5441","159":"9"},"437":{"93":"5441","159":"10"},"438":{"93":"5441","159":"11"},"439":{"93":"5441","159":"12"},"440":{"93":"5441","159":"5440"},"448":{"93":"7","159":"9"},"449":{"93":"7","159":"10"},"450":{"93":"7","159":"11"},"451":{"93":"7","159":"12"},"452":{"93":"7","159":"5440"},"453":{"93":"6","159":"9"},"454":{"93":"6","159":"10"},"455":{"93":"6","159":"11"},"456":{"93":"6","159":"12"},"457":{"93":"6","159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"436":"OBI for Man (Belt)-Yellow-Small","437":"OBI for Man (Belt)-Yellow-Medium","438":"OBI for Man (Belt)-Yellow-Large","439":"OBI for Man (Belt)-Yellow-Extra Large","440":"OBI for Man (Belt)-Yellow-Double Extra Large","448":"OBI for Women (Belt)-Blue-Small","449":"OBI for Women (Belt)-Blue-Medium","450":"OBI for Women (Belt)-Blue-Large","451":"OBI for Women (Belt)-Blue-Extra Large","452":"OBI for Women (Belt)-Blue-Double Extra Large","453":"OBI for Women (Belt)-Red-Small","454":"OBI for Women (Belt)-Red-Medium","455":"OBI for Women (Belt)-Red-Large","456":"OBI for Women (Belt)-Red-Extra Large","457":"OBI for Women (Belt)-Red-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-447]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":20},"oldPrice":{"amount":20},"basePrice":{"amount":20},"finalPrice":{"amount":20}}                    }
+                }
+            }
+        }
+    </script>

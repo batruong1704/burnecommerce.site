@@ -1,0 +1,19 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725670519;s:6:"expire";i:1725674119;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_310,151_CAT_P,151_MAGE";}
+<div class="swatch-opt" data-role="swatch-options"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-options]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["305"]},{"id":"10","label":"Medium","products":["306"]},{"id":"11","label":"Large","products":["307"]},{"id":"12","label":"Extra Large","products":["308"]},{"id":"5440","label":"Double Extra Large","products":["309"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"305":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"306":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"307":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"308":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"309":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45}},"productId":"310","chooseText":"Choose an Option...","images":[],"index":{"305":{"159":"9"},"306":{"159":"10"},"307":{"159":"11"},"308":{"159":"12"},"309":{"159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"305":"Kimono Jacket Sweetness-Small","306":"Kimono Jacket Sweetness-Medium","307":"Kimono Jacket Sweetness-Large","308":"Kimono Jacket Sweetness-Extra Large","309":"Kimono Jacket Sweetness-Double Extra Large"}},
+                "jsonSwatchConfig": {"159":{"9":{"type":"0","value":"S","label":"Small"},"10":{"type":"0","value":"M","label":"Medium"},"11":{"type":"0","value":"L","label":"Large"},"12":{"type":"0","value":"XL","label":"Extra Large"},"5440":{"type":"0","value":"XXL","label":"Double Extra Large"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "gallerySwitchStrategy": "prepend",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        },
+        "*" : {
+            "Magento_Swatches/js/catalog-add-to-cart": {}
+        }
+    }
+</script>

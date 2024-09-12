@@ -1,0 +1,19 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725739033;s:6:"expire";i:1725742633;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_515,151_CAT_P,151_MAGE";}
+<div class="swatch-opt" data-role="swatch-options"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-options]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"4","label":"White","products":["516"]},{"id":"7","label":"Blue","products":["517"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"516":{"baseOldPrice":{"amount":450},"oldPrice":{"amount":450},"basePrice":{"amount":450},"finalPrice":{"amount":450},"tierPrices":[],"msrpPrice":{"amount":0}},"517":{"baseOldPrice":{"amount":450},"oldPrice":{"amount":450},"basePrice":{"amount":450},"finalPrice":{"amount":450},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":450},"oldPrice":{"amount":450},"basePrice":{"amount":450},"finalPrice":{"amount":450}},"productId":"515","chooseText":"Choose an Option...","images":{"516":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/t\/o\/tozandofullcustomiaitosuzaku4_700x700_2.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/t\/o\/tozandofullcustomiaitosuzaku4_700x700_2.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/t\/o\/tozandofullcustomiaitosuzaku4_700x700_2.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"517":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/t\/o\/tozandofullcustomiaitosuzaku2-1_700x700_2.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/t\/o\/tozandofullcustomiaitosuzaku2-1_700x700_2.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/t\/o\/tozandofullcustomiaitosuzaku2-1_700x700_2.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}]},"index":{"516":{"93":"4"},"517":{"93":"7"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"516":"Tozando Full Custom Iaito - Suzaku-White","517":"Tozando Full Custom Iaito - Suzaku-Blue"}},
+                "jsonSwatchConfig": {"93":{"4":{"type":"1","value":"#ffffff","label":"White"},"7":{"type":"1","value":"#3933d6","label":"Blue"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "gallerySwitchStrategy": "prepend",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        },
+        "*" : {
+            "Magento_Swatches/js/catalog-add-to-cart": {}
+        }
+    }
+</script>

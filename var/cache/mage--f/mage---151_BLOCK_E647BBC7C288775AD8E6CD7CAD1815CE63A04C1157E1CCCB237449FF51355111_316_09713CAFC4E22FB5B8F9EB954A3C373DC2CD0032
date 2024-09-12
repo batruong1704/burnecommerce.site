@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725823460;s:6:"expire";i:1725827060;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_316,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-316"
+         data-role="swatch-option-316"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-316]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["311"]},{"id":"10","label":"Medium","products":["312"]},{"id":"11","label":"Large","products":["313"]},{"id":"12","label":"Extra Large","products":["314"]},{"id":"5440","label":"Double Extra Large","products":["315"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"311":{"baseOldPrice":{"amount":50},"oldPrice":{"amount":50},"basePrice":{"amount":50},"finalPrice":{"amount":50},"tierPrices":[],"msrpPrice":{"amount":0}},"312":{"baseOldPrice":{"amount":50},"oldPrice":{"amount":50},"basePrice":{"amount":50},"finalPrice":{"amount":50},"tierPrices":[],"msrpPrice":{"amount":0}},"313":{"baseOldPrice":{"amount":50},"oldPrice":{"amount":50},"basePrice":{"amount":50},"finalPrice":{"amount":50},"tierPrices":[],"msrpPrice":{"amount":0}},"314":{"baseOldPrice":{"amount":50},"oldPrice":{"amount":50},"basePrice":{"amount":50},"finalPrice":{"amount":50},"tierPrices":[],"msrpPrice":{"amount":0}},"315":{"baseOldPrice":{"amount":50},"oldPrice":{"amount":50},"basePrice":{"amount":50},"finalPrice":{"amount":50},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":50},"oldPrice":{"amount":50},"basePrice":{"amount":50},"finalPrice":{"amount":50}},"productId":"316","chooseText":"Choose an Option...","images":[],"index":{"311":{"159":"9"},"312":{"159":"10"},"313":{"159":"11"},"314":{"159":"12"},"315":{"159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"311":"Kimono Jacket Freedom-Small","312":"Kimono Jacket Freedom-Medium","313":"Kimono Jacket Freedom-Large","314":"Kimono Jacket Freedom-Extra Large","315":"Kimono Jacket Freedom-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-316]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":50},"oldPrice":{"amount":50},"basePrice":{"amount":50},"finalPrice":{"amount":50}}                    }
+                }
+            }
+        }
+    </script>

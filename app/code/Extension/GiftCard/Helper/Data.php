@@ -18,8 +18,6 @@ class Data extends AbstractHelper
 {
     const GIFTCARD_XML_PATH = 'giftcard/';
     const GIFTCARD_MODULE_ENABLE = 'giftcard/general/enable';
-    const GIFTCARD_REDEEM_ENABLE = 'giftcard/general/allowredeem';
-    const GIFTCARD_CHECKOUT_ENABLE = 'giftcard/general/allowatcheckout';
 
     /**
      * @var GiftCardFactory
@@ -138,4 +136,6 @@ class Data extends AbstractHelper
         $newHistory->setCustomerId($customerId);
         $newHistory->save();
     }
+
+
 }

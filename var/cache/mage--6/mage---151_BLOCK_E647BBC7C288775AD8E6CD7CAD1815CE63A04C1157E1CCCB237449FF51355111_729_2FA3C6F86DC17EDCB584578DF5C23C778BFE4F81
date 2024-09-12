@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725845158;s:6:"expire";i:1725848758;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_729,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-729"
+         data-role="swatch-option-729"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-729]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["721","722","723","724"]},{"id":"5466","label":"Orange","products":["725","726","727","728"]},{"id":"7","label":"Blue","products":["717","718","719","720"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["720","724","728"]},{"id":"10","label":"Medium","products":["718","722","726"]},{"id":"11","label":"Large","products":["717","721","725"]},{"id":"12","label":"Extra Large","products":["719","723","727"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"717":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"718":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"719":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"720":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"721":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"722":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"723":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"724":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"725":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"726":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"727":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}},"728":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000}},"productId":"729","chooseText":"Choose an Option...","images":[],"index":{"717":{"93":"7","159":"11"},"718":{"93":"7","159":"10"},"719":{"93":"7","159":"12"},"720":{"93":"7","159":"9"},"721":{"93":"6","159":"11"},"722":{"93":"6","159":"10"},"723":{"93":"6","159":"12"},"724":{"93":"6","159":"9"},"725":{"93":"5466","159":"11"},"726":{"93":"5466","159":"10"},"727":{"93":"5466","159":"12"},"728":{"93":"5466","159":"9"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"717":"Uchikake for Wedding-Blue-Large","718":"Uchikake for Wedding-Blue-Medium","719":"Uchikake for Wedding-Blue-Extra Large","720":"Uchikake for Wedding-Blue-Small","721":"Uchikake for Wedding-Red-Large","722":"Uchikake for Wedding-Red-Medium","723":"Uchikake for Wedding-Red-Extra Large","724":"Uchikake for Wedding-Red-Small","725":"Uchikake for Wedding-Orange-Large","726":"Uchikake for Wedding-Orange-Medium","727":"Uchikake for Wedding-Orange-Extra Large","728":"Uchikake for Wedding-Orange-Small"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-729]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":2000},"oldPrice":{"amount":2000},"basePrice":{"amount":2000},"finalPrice":{"amount":2000}}                    }
+                }
+            }
+        }
+    </script>

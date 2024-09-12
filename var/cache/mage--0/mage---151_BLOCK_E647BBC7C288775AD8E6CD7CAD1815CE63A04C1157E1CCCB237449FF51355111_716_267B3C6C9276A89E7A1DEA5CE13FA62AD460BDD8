@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725849663;s:6:"expire";i:1725853263;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_716,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-716"
+         data-role="swatch-option-716"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-716]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["711"]},{"id":"10","label":"Medium","products":["712"]},{"id":"11","label":"Large","products":["713"]},{"id":"12","label":"Extra Large","products":["714"]},{"id":"5440","label":"Double Extra Large","products":["715"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"711":{"baseOldPrice":{"amount":100.96},"oldPrice":{"amount":100.96},"basePrice":{"amount":100.96},"finalPrice":{"amount":100.96},"tierPrices":[],"msrpPrice":{"amount":0}},"712":{"baseOldPrice":{"amount":100.96},"oldPrice":{"amount":100.96},"basePrice":{"amount":100.96},"finalPrice":{"amount":100.96},"tierPrices":[],"msrpPrice":{"amount":0}},"713":{"baseOldPrice":{"amount":100.96},"oldPrice":{"amount":100.96},"basePrice":{"amount":100.96},"finalPrice":{"amount":100.96},"tierPrices":[],"msrpPrice":{"amount":0}},"714":{"baseOldPrice":{"amount":100.96},"oldPrice":{"amount":100.96},"basePrice":{"amount":100.96},"finalPrice":{"amount":100.96},"tierPrices":[],"msrpPrice":{"amount":0}},"715":{"baseOldPrice":{"amount":100.96},"oldPrice":{"amount":100.96},"basePrice":{"amount":100.96},"finalPrice":{"amount":100.96},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":100.96},"oldPrice":{"amount":100.96},"basePrice":{"amount":100.96},"finalPrice":{"amount":100.96}},"productId":"716","chooseText":"Choose an Option...","images":[],"index":{"711":{"159":"9"},"712":{"159":"10"},"713":{"159":"11"},"714":{"159":"12"},"715":{"159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/i\/l\/il_794xn.5843631939_krbe_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/i\/l\/il_794xn.5843631939_krbe_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/i\/l\/il_794xn.5843631939_krbe_2.jpg","position":"6","isMain":true,"gallery":{"1571":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/i\/l\/il_794xn.5381185216_1ime_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/i\/l\/il_794xn.5381185216_1ime_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/i\/l\/il_794xn.5381185216_1ime_1_2.jpg","position":"2","isMain":false},"1572":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/i\/l\/il_794xn.5381185104_fy5m_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/i\/l\/il_794xn.5381185104_fy5m_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/i\/l\/il_794xn.5381185104_fy5m_1_2.jpg","position":"3","isMain":false},"1573":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/i\/l\/il_794xn.5381186516_6dif_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/i\/l\/il_794xn.5381186516_6dif_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/i\/l\/il_794xn.5381186516_6dif_1_2.jpg","position":"4","isMain":false},"1574":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/i\/l\/il_794xn.5429347797_te69_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/i\/l\/il_794xn.5429347797_te69_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/i\/l\/il_794xn.5429347797_te69_1_2.jpg","position":"5","isMain":false},"1575":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/i\/l\/il_794xn.5843631939_krbe_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/i\/l\/il_794xn.5843631939_krbe_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/i\/l\/il_794xn.5843631939_krbe_2.jpg","position":"6","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"711":"Relaxed Fit Linen Kimono Set-Small","712":"Relaxed Fit Linen Kimono Set-Medium","713":"Relaxed Fit Linen Kimono Set-Large","714":"Relaxed Fit Linen Kimono Set-Extra Large","715":"Relaxed Fit Linen Kimono Set-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-716]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":100.96},"oldPrice":{"amount":100.96},"basePrice":{"amount":100.96},"finalPrice":{"amount":100.96}}                    }
+                }
+            }
+        }
+    </script>

@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725774261;s:6:"expire";i:1725777861;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_514,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-514"
+         data-role="swatch-option-514"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-514]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5468","label":"Olive","products":["509","510","511","512","513"]},{"id":"5467","label":"Navy blue","products":["504","505","506","507","508"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["504","509"]},{"id":"10","label":"Medium","products":["505","510"]},{"id":"11","label":"Large","products":["506","511"]},{"id":"12","label":"Extra Large","products":["507","512"]},{"id":"5440","label":"Double Extra Large","products":["508","513"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"504":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"505":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"506":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"507":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"508":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"509":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"510":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"511":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"512":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"513":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45}},"productId":"514","chooseText":"Choose an Option...","images":[],"index":{"504":{"93":"5467","159":"9"},"505":{"93":"5467","159":"10"},"506":{"93":"5467","159":"11"},"507":{"93":"5467","159":"12"},"508":{"93":"5467","159":"5440"},"509":{"93":"5468","159":"9"},"510":{"93":"5468","159":"10"},"511":{"93":"5468","159":"11"},"512":{"93":"5468","159":"12"},"513":{"93":"5468","159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"504":"Musashi Cotton Kendo Gi-Navy blue-Small","505":"Musashi Cotton Kendo Gi-Navy blue-Medium","506":"Musashi Cotton Kendo Gi-Navy blue-Large","507":"Musashi Cotton Kendo Gi-Navy blue-Extra Large","508":"Musashi Cotton Kendo Gi-Navy blue-Double Extra Large","509":"Musashi Cotton Kendo Gi-Olive-Small","510":"Musashi Cotton Kendo Gi-Olive-Medium","511":"Musashi Cotton Kendo Gi-Olive-Large","512":"Musashi Cotton Kendo Gi-Olive-Extra Large","513":"Musashi Cotton Kendo Gi-Olive-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-514]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45}}                    }
+                }
+            }
+        }
+    </script>

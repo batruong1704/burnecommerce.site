@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725824158;s:6:"expire";i:1725827758;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_361,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-361"
+         data-role="swatch-option-361"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-361]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["356"]},{"id":"10","label":"Medium","products":["357"]},{"id":"11","label":"Large","products":["358"]},{"id":"12","label":"Extra Large","products":["359"]},{"id":"5440","label":"Double Extra Large","products":["360"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"356":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}},"357":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}},"358":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}},"359":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}},"360":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5}},"productId":"361","chooseText":"Choose an Option...","images":[],"index":{"356":{"159":"9"},"357":{"159":"10"},"358":{"159":"11"},"359":{"159":"12"},"360":{"159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"356":"3 Pairs of Japanese Tabi Socks-Small","357":"3 Pairs of Japanese Tabi Socks-Medium","358":"3 Pairs of Japanese Tabi Socks-Large","359":"3 Pairs of Japanese Tabi Socks-Extra Large","360":"3 Pairs of Japanese Tabi Socks-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-361]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":5},"oldPrice":{"amount":5},"basePrice":{"amount":5},"finalPrice":{"amount":5}}                    }
+                }
+            }
+        }
+    </script>

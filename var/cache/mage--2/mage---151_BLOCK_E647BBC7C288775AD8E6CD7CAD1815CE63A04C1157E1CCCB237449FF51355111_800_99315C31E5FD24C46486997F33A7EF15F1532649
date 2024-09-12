@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726140151;s:6:"expire";i:1726143751;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_800,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-800"
+         data-role="swatch-option-800"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-800]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["797"]},{"id":"11","label":"Large","products":["798"]},{"id":"12","label":"Extra Large","products":["799"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"797":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"798":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"799":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45}},"productId":"800","chooseText":"Choose an Option...","images":[],"index":{"797":{"159":"10"},"798":{"159":"11"},"799":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"797":"Khurshid Embroidered Cotton Linen Designer Kurta-Medium","798":"Khurshid Embroidered Cotton Linen Designer Kurta-Large","799":"Khurshid Embroidered Cotton Linen Designer Kurta-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-800]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45}}                    }
+                }
+            }
+        }
+    </script>

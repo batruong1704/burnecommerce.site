@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726073053;s:6:"expire";i:1726076653;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_877,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-877"
+         data-role="swatch-option-877"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-877]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["874","875","876"]},{"id":"5447","label":"Pink","products":["871","872","873"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["872","875"]},{"id":"11","label":"Large","products":["871","874"]},{"id":"12","label":"Extra Large","products":["873","876"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"871":{"baseOldPrice":{"amount":74.14},"oldPrice":{"amount":74.14},"basePrice":{"amount":74.14},"finalPrice":{"amount":74.14},"tierPrices":[],"msrpPrice":{"amount":0}},"872":{"baseOldPrice":{"amount":74.14},"oldPrice":{"amount":74.14},"basePrice":{"amount":74.14},"finalPrice":{"amount":74.14},"tierPrices":[],"msrpPrice":{"amount":0}},"873":{"baseOldPrice":{"amount":74.14},"oldPrice":{"amount":74.14},"basePrice":{"amount":74.14},"finalPrice":{"amount":74.14},"tierPrices":[],"msrpPrice":{"amount":0}},"874":{"baseOldPrice":{"amount":74.14},"oldPrice":{"amount":74.14},"basePrice":{"amount":74.14},"finalPrice":{"amount":74.14},"tierPrices":[],"msrpPrice":{"amount":0}},"875":{"baseOldPrice":{"amount":74.14},"oldPrice":{"amount":74.14},"basePrice":{"amount":74.14},"finalPrice":{"amount":74.14},"tierPrices":[],"msrpPrice":{"amount":0}},"876":{"baseOldPrice":{"amount":74.14},"oldPrice":{"amount":74.14},"basePrice":{"amount":74.14},"finalPrice":{"amount":74.14},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":74.14},"oldPrice":{"amount":74.14},"basePrice":{"amount":74.14},"finalPrice":{"amount":74.14}},"productId":"877","chooseText":"Choose an Option...","images":[],"index":{"871":{"93":"5447","159":"11"},"872":{"93":"5447","159":"10"},"873":{"93":"5447","159":"12"},"874":{"93":"6","159":"11"},"875":{"93":"6","159":"10"},"876":{"93":"6","159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"871":"Hanbok Jeogori-Pink-Large","872":"Hanbok Jeogori-Pink-Medium","873":"Hanbok Jeogori-Pink-Extra Large","874":"Hanbok Jeogori-Red-Large","875":"Hanbok Jeogori-Red-Medium","876":"Hanbok Jeogori-Red-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-877]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":74.14},"oldPrice":{"amount":74.14},"basePrice":{"amount":74.14},"finalPrice":{"amount":74.14}}                    }
+                }
+            }
+        }
+    </script>

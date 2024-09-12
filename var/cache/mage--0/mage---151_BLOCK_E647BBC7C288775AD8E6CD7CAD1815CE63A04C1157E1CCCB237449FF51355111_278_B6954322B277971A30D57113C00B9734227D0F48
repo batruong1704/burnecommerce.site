@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725800891;s:6:"expire";i:1725804491;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_278,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-278"
+         data-role="swatch-option-278"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-278]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5447","label":"Pink","products":["277"]},{"id":"7","label":"Blue","products":["276"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"276":{"baseOldPrice":{"amount":10},"oldPrice":{"amount":10},"basePrice":{"amount":10},"finalPrice":{"amount":10},"tierPrices":[],"msrpPrice":{"amount":0}},"277":{"baseOldPrice":{"amount":10},"oldPrice":{"amount":10},"basePrice":{"amount":10},"finalPrice":{"amount":10},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":10},"oldPrice":{"amount":10},"basePrice":{"amount":10},"finalPrice":{"amount":10}},"productId":"278","chooseText":"Choose an Option...","images":[],"index":{"276":{"93":"7"},"277":{"93":"5447"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/s\/e\/sensu_blue_2.png","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/s\/e\/sensu_blue_2.png","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/s\/e\/sensu_blue_2.png","position":"1","isMain":true,"gallery":{"418":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/s\/e\/sensu_blue_2.png","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/s\/e\/sensu_blue_2.png","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/s\/e\/sensu_blue_2.png","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"276":"Sensu - Traditional Japanese Folding Fan-Blue","277":"Sensu - Traditional Japanese Folding Fan-Pink"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-278]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":10},"oldPrice":{"amount":10},"basePrice":{"amount":10},"finalPrice":{"amount":10}}                    }
+                }
+            }
+        }
+    </script>

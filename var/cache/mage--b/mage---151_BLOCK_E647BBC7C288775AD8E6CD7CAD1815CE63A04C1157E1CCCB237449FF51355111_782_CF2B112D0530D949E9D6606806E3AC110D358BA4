@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726124051;s:6:"expire";i:1726127651;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_782,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-782"
+         data-role="swatch-option-782"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-782]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["781"]},{"id":"10","label":"Medium","products":["778"]},{"id":"11","label":"Large","products":["779"]},{"id":"12","label":"Extra Large","products":["780"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"778":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"779":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"780":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}},"781":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40}},"productId":"782","chooseText":"Choose an Option...","images":[],"index":{"778":{"159":"10"},"779":{"159":"11"},"780":{"159":"12"},"781":{"159":"9"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/3\/0\/300971242green_1_1_4.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/3\/0\/300971242green_1_1_4.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/3\/0\/300971242green_1_1_4.jpg","position":"1","isMain":true,"gallery":{"1785":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/3\/0\/300971242green_1_1_4.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/3\/0\/300971242green_1_1_4.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/3\/0\/300971242green_1_1_4.jpg","position":"1","isMain":true},"1786":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/3\/0\/300971242green_2_1_4.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/3\/0\/300971242green_2_1_4.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/3\/0\/300971242green_2_1_4.jpg","position":"2","isMain":false},"1787":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/3\/0\/300971242green_3_1_4.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/3\/0\/300971242green_3_1_4.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/3\/0\/300971242green_3_1_4.jpg","position":"3","isMain":false},"1788":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/3\/0\/300971242green_4_1_4.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/3\/0\/300971242green_4_1_4.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/3\/0\/300971242green_4_1_4.jpg","position":"4","isMain":false}}},"channel":"website","salesChannelCode":"base","sku":{"778":"Floral Printed Straight Cotton Kurta-Medium","779":"Floral Printed Straight Cotton Kurta-Large","780":"Floral Printed Straight Cotton Kurta-Extra Large","781":"Floral Printed Straight Cotton Kurta-Small"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-782]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":40},"oldPrice":{"amount":40},"basePrice":{"amount":40},"finalPrice":{"amount":40}}                    }
+                }
+            }
+        }
+    </script>

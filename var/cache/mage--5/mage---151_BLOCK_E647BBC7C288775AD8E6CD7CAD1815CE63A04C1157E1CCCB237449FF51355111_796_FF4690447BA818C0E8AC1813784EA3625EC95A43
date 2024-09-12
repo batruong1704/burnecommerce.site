@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726140106;s:6:"expire";i:1726143706;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_796,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-796"
+         data-role="swatch-option-796"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-796]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["793"]},{"id":"11","label":"Large","products":["794"]},{"id":"12","label":"Extra Large","products":["795"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"793":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"794":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}},"795":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45}},"productId":"796","chooseText":"Choose an Option...","images":[],"index":{"793":{"159":"10"},"794":{"159":"11"},"795":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/a\/manyavar1581_05-12-2022-05-35_650x900_1_1.png","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/a\/manyavar1581_05-12-2022-05-35_650x900_1_1.png","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/a\/manyavar1581_05-12-2022-05-35_650x900_1_1.png","position":"3","isMain":true,"gallery":{"1831":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/a\/manyavar1550_05-12-2022-05-32_1_1.png","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/a\/manyavar1550_05-12-2022-05-32_1_1.png","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/a\/manyavar1550_05-12-2022-05-32_1_1.png","position":"1","isMain":false},"1832":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/a\/manyavar1578_05-12-2022-05-34_1_1.png","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/a\/manyavar1578_05-12-2022-05-34_1_1.png","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/a\/manyavar1578_05-12-2022-05-34_1_1.png","position":"2","isMain":false},"1830":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/a\/manyavar1581_05-12-2022-05-35_650x900_1_1.png","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/a\/manyavar1581_05-12-2022-05-35_650x900_1_1.png","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/a\/manyavar1581_05-12-2022-05-35_650x900_1_1.png","position":"3","isMain":true},"1833":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/a\/manyavar1585_05-12-2022-05-35-2_650x900_1_1.png","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/a\/manyavar1585_05-12-2022-05-35-2_650x900_1_1.png","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/a\/manyavar1585_05-12-2022-05-35-2_650x900_1_1.png","position":"4","isMain":false}}},"channel":"website","salesChannelCode":"base","sku":{"793":"Sophisticated Chequred Kurta-Medium","794":"Sophisticated Chequred Kurta-Large","795":"Sophisticated Chequred Kurta-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-796]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":45},"oldPrice":{"amount":45},"basePrice":{"amount":45},"finalPrice":{"amount":45}}                    }
+                }
+            }
+        }
+    </script>

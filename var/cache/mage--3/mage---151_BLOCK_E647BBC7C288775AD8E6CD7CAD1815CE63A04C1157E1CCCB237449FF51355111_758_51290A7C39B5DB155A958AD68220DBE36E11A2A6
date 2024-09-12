@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726123753;s:6:"expire";i:1726127353;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_758,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-758"
+         data-role="swatch-option-758"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-758]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["756"]},{"id":"11","label":"Large","products":["755"]},{"id":"12","label":"Extra Large","products":["757"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"755":{"baseOldPrice":{"amount":75},"oldPrice":{"amount":75},"basePrice":{"amount":75},"finalPrice":{"amount":75},"tierPrices":[],"msrpPrice":{"amount":0}},"756":{"baseOldPrice":{"amount":75},"oldPrice":{"amount":75},"basePrice":{"amount":75},"finalPrice":{"amount":75},"tierPrices":[],"msrpPrice":{"amount":0}},"757":{"baseOldPrice":{"amount":75},"oldPrice":{"amount":75},"basePrice":{"amount":75},"finalPrice":{"amount":75},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":75},"oldPrice":{"amount":75},"basePrice":{"amount":75},"finalPrice":{"amount":75}},"productId":"758","chooseText":"Choose an Option...","images":[],"index":{"755":{"159":"11"},"756":{"159":"10"},"757":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/3\/0\/3098sr02-7402_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/3\/0\/3098sr02-7402_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/3\/0\/3098sr02-7402_1_1.jpg","position":"1","isMain":true,"gallery":{"1662":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/3\/0\/3098sr02-7402_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/3\/0\/3098sr02-7402_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/3\/0\/3098sr02-7402_1_1.jpg","position":"1","isMain":true},"1663":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/3\/0\/3098sr02-7402-1_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/3\/0\/3098sr02-7402-1_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/3\/0\/3098sr02-7402-1_1_1.jpg","position":"2","isMain":false},"1664":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/c\/l\/client13_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/c\/l\/client13_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/c\/l\/client13_1_1.jpg","position":"3","isMain":false}}},"channel":"website","salesChannelCode":"base","sku":{"755":"Green Heavy Border Wedding Organza Saree-Large","756":"Green Heavy Border Wedding Organza Saree-Medium","757":"Green Heavy Border Wedding Organza Saree-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-758]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":75},"oldPrice":{"amount":75},"basePrice":{"amount":75},"finalPrice":{"amount":75}}                    }
+                }
+            }
+        }
+    </script>

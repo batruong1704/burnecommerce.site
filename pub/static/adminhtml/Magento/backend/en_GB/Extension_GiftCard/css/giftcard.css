@@ -1,0 +1,16 @@
+.admin__menu .item-giftcard.parent.level-0 > a:before {
+    content: url('../images/gift-icon.svg') !important;
+    height: 28px;
+    margin: 0 auto;
+    width: 30px;
+}
+
+.admin__menu .submenu .item-section1.parent.level-1 > strong:before {
+    content: url('../images/submenu-1.svg') !important;
+    margin-right: 5px;
+}
+
+.submenu .column:only-of-type .submenu-group-title,
+.level-0 > .submenu > ul > .level-1:only-of-type > .submenu-group-title {
+    display: block !important;
+}

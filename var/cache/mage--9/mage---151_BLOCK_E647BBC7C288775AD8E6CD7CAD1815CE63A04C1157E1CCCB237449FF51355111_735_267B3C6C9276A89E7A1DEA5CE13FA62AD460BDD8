@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726140102;s:6:"expire";i:1726143702;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_735,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-735"
+         data-role="swatch-option-735"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-735]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["730"]},{"id":"10","label":"Medium","products":["731"]},{"id":"11","label":"Large","products":["732"]},{"id":"12","label":"Extra Large","products":["733"]},{"id":"5440","label":"Double Extra Large","products":["734"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"730":{"baseOldPrice":{"amount":73},"oldPrice":{"amount":73},"basePrice":{"amount":73},"finalPrice":{"amount":73},"tierPrices":[],"msrpPrice":{"amount":0}},"731":{"baseOldPrice":{"amount":73},"oldPrice":{"amount":73},"basePrice":{"amount":73},"finalPrice":{"amount":73},"tierPrices":[],"msrpPrice":{"amount":0}},"732":{"baseOldPrice":{"amount":73},"oldPrice":{"amount":73},"basePrice":{"amount":73},"finalPrice":{"amount":73},"tierPrices":[],"msrpPrice":{"amount":0}},"733":{"baseOldPrice":{"amount":73},"oldPrice":{"amount":73},"basePrice":{"amount":73},"finalPrice":{"amount":73},"tierPrices":[],"msrpPrice":{"amount":0}},"734":{"baseOldPrice":{"amount":73},"oldPrice":{"amount":73},"basePrice":{"amount":73},"finalPrice":{"amount":73},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":73},"oldPrice":{"amount":73},"basePrice":{"amount":73},"finalPrice":{"amount":73}},"productId":"735","chooseText":"Choose an Option...","images":[],"index":{"730":{"159":"9"},"731":{"159":"10"},"732":{"159":"11"},"733":{"159":"12"},"734":{"159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/5\/8\/5861sr01-klc6520_3.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/5\/8\/5861sr01-klc6520_3.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/5\/8\/5861sr01-klc6520_3.jpg","position":"1","isMain":true,"gallery":{"1613":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/5\/8\/5861sr01-klc6520_3.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/5\/8\/5861sr01-klc6520_3.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/5\/8\/5861sr01-klc6520_3.jpg","position":"1","isMain":true},"1614":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/5\/8\/5861sr01-klc6520-1_3.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/5\/8\/5861sr01-klc6520-1_3.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/5\/8\/5861sr01-klc6520-1_3.jpg","position":"2","isMain":false}}},"channel":"website","salesChannelCode":"base","sku":{"730":"Blue Embroidered Saree In Georgette-Small","731":"Blue Embroidered Saree In Georgette-Medium","732":"Blue Embroidered Saree In Georgette-Large","733":"Blue Embroidered Saree In Georgette-Extra Large","734":"Blue Embroidered Saree In Georgette-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-735]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":73},"oldPrice":{"amount":73},"basePrice":{"amount":73},"finalPrice":{"amount":73}}                    }
+                }
+            }
+        }
+    </script>

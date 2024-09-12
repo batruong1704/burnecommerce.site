@@ -1,0 +1,29 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725973864;s:6:"expire";i:1725977464;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_248,151_CAT_P,151_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute182">
+                <span>Type</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[182]"
+                        data-selector="super_attribute[182]"
+                        data-validate="{required:true}"
+                        id="attribute182"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"182":{"id":"182","code":"type","label":"Type","options":[{"id":"5457","label":"Type 1","products":["249"]},{"id":"5458","label":"Type 2","products":["250"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"249":{"baseOldPrice":{"amount":39.35},"oldPrice":{"amount":39.35},"basePrice":{"amount":39.35},"finalPrice":{"amount":39.35},"tierPrices":[],"msrpPrice":{"amount":0}},"250":{"baseOldPrice":{"amount":39.35},"oldPrice":{"amount":39.35},"basePrice":{"amount":39.35},"finalPrice":{"amount":39.35},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":39.35},"oldPrice":{"amount":39.35},"basePrice":{"amount":39.35},"finalPrice":{"amount":39.35}},"productId":"248","chooseText":"Choose an Option...","images":{"249":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/i\/l\/ilma_quilt_painting-type_1.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/i\/l\/ilma_quilt_painting-type_1.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/i\/l\/ilma_quilt_painting-type_1.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"250":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/i\/l\/ilma_quilt_painting-type_2.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/i\/l\/ilma_quilt_painting-type_2.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/i\/l\/ilma_quilt_painting-type_2.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}]},"index":{"249":{"182":"5457"},"250":{"182":"5458"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"249":"Ilma quilt painting-Type 1","250":"Ilma quilt painting-Type 2"}},
+                    "gallerySwitchStrategy": "prepend"
+                }
+            },
+            "*" : {
+                "Magento_ConfigurableProduct/js/catalog-add-to-cart": {}
+            }
+        }
+    </script>

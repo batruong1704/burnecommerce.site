@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726140092;s:6:"expire";i:1726143692;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_762,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-762"
+         data-role="swatch-option-762"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-762]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["760"]},{"id":"11","label":"Large","products":["759"]},{"id":"12","label":"Extra Large","products":["761"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"759":{"baseOldPrice":{"amount":128},"oldPrice":{"amount":128},"basePrice":{"amount":128},"finalPrice":{"amount":128},"tierPrices":[],"msrpPrice":{"amount":0}},"760":{"baseOldPrice":{"amount":128},"oldPrice":{"amount":128},"basePrice":{"amount":128},"finalPrice":{"amount":128},"tierPrices":[],"msrpPrice":{"amount":0}},"761":{"baseOldPrice":{"amount":128},"oldPrice":{"amount":128},"basePrice":{"amount":128},"finalPrice":{"amount":128},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":128},"oldPrice":{"amount":128},"basePrice":{"amount":128},"finalPrice":{"amount":128}},"productId":"762","chooseText":"Choose an Option...","images":[],"index":{"759":{"159":"11"},"760":{"159":"10"},"761":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/5\/5\/5543sr13-23313_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/5\/5\/5543sr13-23313_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/5\/5\/5543sr13-23313_1_2.jpg","position":"1","isMain":true,"gallery":{"1677":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/5\/5\/5543sr13-23313_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/5\/5\/5543sr13-23313_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/5\/5\/5543sr13-23313_1_2.jpg","position":"1","isMain":true},"1678":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/5\/5\/5543sr13-23313-1_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/5\/5\/5543sr13-23313-1_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/5\/5\/5543sr13-23313-1_1_2.jpg","position":"2","isMain":false}}},"channel":"website","salesChannelCode":"base","sku":{"759":"Pink Crape Silk Pre - Stitched Embellished Saree-Large","760":"Pink Crape Silk Pre - Stitched Embellished Saree-Medium","761":"Pink Crape Silk Pre - Stitched Embellished Saree-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-762]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":128},"oldPrice":{"amount":128},"basePrice":{"amount":128},"finalPrice":{"amount":128}}                    }
+                }
+            }
+        }
+    </script>

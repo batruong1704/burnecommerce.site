@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725775557;s:6:"expire";i:1725779157;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_586,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-586"
+         data-role="swatch-option-586"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-586]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5","label":"Black","products":["587"]},{"id":"6","label":"Red","products":["583"]},{"id":"5441","label":"Yellow","products":["584"]},{"id":"5447","label":"Pink","products":["589"]},{"id":"7","label":"Blue","products":["582"]},{"id":"8","label":"Green","products":["588"]},{"id":"5445","label":"Multicolor","products":["585"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"582":{"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75},"tierPrices":[],"msrpPrice":{"amount":0}},"583":{"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75},"tierPrices":[],"msrpPrice":{"amount":0}},"584":{"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75},"tierPrices":[],"msrpPrice":{"amount":0}},"585":{"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75},"tierPrices":[],"msrpPrice":{"amount":0}},"587":{"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75},"tierPrices":[],"msrpPrice":{"amount":0}},"588":{"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75},"tierPrices":[],"msrpPrice":{"amount":0}},"589":{"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75}},"productId":"586","chooseText":"Choose an Option...","images":[],"index":{"582":{"93":"7"},"583":{"93":"6"},"584":{"93":"5441"},"585":{"93":"5445"},"587":{"93":"5"},"588":{"93":"8"},"589":{"93":"5447"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/k\/o\/koinobori-arc-en-ciel-s-896_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/k\/o\/koinobori-arc-en-ciel-s-896_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/k\/o\/koinobori-arc-en-ciel-s-896_1.jpg","position":"1","isMain":true,"gallery":{"1153":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/k\/o\/koinobori-arc-en-ciel-s-896_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/k\/o\/koinobori-arc-en-ciel-s-896_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/k\/o\/koinobori-arc-en-ciel-s-896_1.jpg","position":"1","isMain":true},"1154":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/k\/o\/koinobori-arc-en-ciel-s-912_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/k\/o\/koinobori-arc-en-ciel-s-912_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/k\/o\/koinobori-arc-en-ciel-s-912_1.jpg","position":"2","isMain":false}}},"channel":"website","salesChannelCode":"base","sku":{"582":"Koinobori Shibori Pattern-Blue","583":"Koinobori Shibori Pattern-Red","584":"Koinobori Shibori Pattern-Yellow","585":"Koinobori Shibori Pattern-Multicolor","587":"Koinobori Shibori Pattern-Black","588":"Koinobori Shibori Pattern-Green","589":"Koinobori Shibori Pattern-Pink"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-586]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":36.75},"oldPrice":{"amount":36.75},"basePrice":{"amount":36.75},"finalPrice":{"amount":36.75}}                    }
+                }
+            }
+        }
+    </script>

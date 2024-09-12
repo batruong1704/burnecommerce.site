@@ -82,13 +82,12 @@ class AfterGiftCodeApplied implements ObserverInterface
      */
     public function execute(Observer $observer)
     {
-        $redeemEnabled = $this->helper->getConfigValue(DataHelper::GIFTCARD_CHECKOUT_ENABLE);
         $quote = $this->checkoutSession->getQuote();
         $controller = $observer->getControllerAction();
         $couponCode = $controller->getRequest()->getParam('coupon_code');
         $isRemoveGiftCard = $controller->getRequest()->getParam('remove');
 
-        if ($isRemoveGiftCard && $quote->getGiftCode() != null) {
+        if ($isRemoveGiftCard) {
             $quote->setGiftCode('');
             $quote->setGiftCodeDiscount(0);
             $quote->setTriggerRecollect(true);
@@ -98,7 +97,7 @@ class AfterGiftCodeApplied implements ObserverInterface
         } else {
             $giftCard = $this->helper->validateGiftCardCode($couponCode);
 
-            if ($giftCard && $redeemEnabled) {
+            if ($giftCard) {
                 // Get the available balance of the valid gift card
                 $availableAmount = $this->helper->getAvailableGiftCardAmount($giftCard);
                 if ($availableAmount > 0) {

@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725837435;s:6:"expire";i:1725841035;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_385,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-385"
+         data-role="swatch-option-385"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-385]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["380"]},{"id":"10","label":"Medium","products":["381"]},{"id":"11","label":"Large","products":["382"]},{"id":"12","label":"Extra Large","products":["383"]},{"id":"5440","label":"Double Extra Large","products":["384"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"380":{"baseOldPrice":{"amount":7},"oldPrice":{"amount":7},"basePrice":{"amount":7},"finalPrice":{"amount":7},"tierPrices":[],"msrpPrice":{"amount":0}},"381":{"baseOldPrice":{"amount":7},"oldPrice":{"amount":7},"basePrice":{"amount":7},"finalPrice":{"amount":7},"tierPrices":[],"msrpPrice":{"amount":0}},"382":{"baseOldPrice":{"amount":7},"oldPrice":{"amount":7},"basePrice":{"amount":7},"finalPrice":{"amount":7},"tierPrices":[],"msrpPrice":{"amount":0}},"383":{"baseOldPrice":{"amount":7},"oldPrice":{"amount":7},"basePrice":{"amount":7},"finalPrice":{"amount":7},"tierPrices":[],"msrpPrice":{"amount":0}},"384":{"baseOldPrice":{"amount":7},"oldPrice":{"amount":7},"basePrice":{"amount":7},"finalPrice":{"amount":7},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":7},"oldPrice":{"amount":7},"basePrice":{"amount":7},"finalPrice":{"amount":7}},"productId":"385","chooseText":"Choose an Option...","images":[],"index":{"380":{"159":"9"},"381":{"159":"10"},"382":{"159":"11"},"383":{"159":"12"},"384":{"159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/o\/mount-fuji-tabi-379_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/o\/mount-fuji-tabi-379_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/o\/mount-fuji-tabi-379_1.jpg","position":"1","isMain":true,"gallery":{"572":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/o\/mount-fuji-tabi-379_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/o\/mount-fuji-tabi-379_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/o\/mount-fuji-tabi-379_1.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"380":"Mount Fuji Tabi Sock-Small","381":"Mount Fuji Tabi Sock-Medium","382":"Mount Fuji Tabi Sock-Large","383":"Mount Fuji Tabi Sock-Extra Large","384":"Mount Fuji Tabi Sock-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-385]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":7},"oldPrice":{"amount":7},"basePrice":{"amount":7},"finalPrice":{"amount":7}}                    }
+                }
+            }
+        }
+    </script>

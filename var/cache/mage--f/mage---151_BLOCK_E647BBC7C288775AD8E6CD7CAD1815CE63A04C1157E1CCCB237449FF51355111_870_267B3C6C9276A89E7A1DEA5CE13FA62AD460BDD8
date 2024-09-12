@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725770906;s:6:"expire";i:1725774506;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_870,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-870"
+         data-role="swatch-option-870"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-870]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5","label":"Black","products":["861","862","863"]},{"id":"5447","label":"Pink","products":["864","865","866"]},{"id":"7","label":"Blue","products":["867","868","869"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["862","865","868"]},{"id":"11","label":"Large","products":["861","864","867"]},{"id":"12","label":"Extra Large","products":["863","866","869"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"861":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}},"862":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}},"863":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}},"864":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}},"865":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}},"866":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}},"867":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}},"868":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}},"869":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230}},"productId":"870","chooseText":"Choose an Option...","images":[],"index":{"861":{"93":"5","159":"11"},"862":{"93":"5","159":"10"},"863":{"93":"5","159":"12"},"864":{"93":"5447","159":"11"},"865":{"93":"5447","159":"10"},"866":{"93":"5447","159":"12"},"867":{"93":"7","159":"11"},"868":{"93":"7","159":"10"},"869":{"93":"7","159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/9\/2\/92bbc8a59b7f9a8cba6efc08c0185597_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/9\/2\/92bbc8a59b7f9a8cba6efc08c0185597_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/9\/2\/92bbc8a59b7f9a8cba6efc08c0185597_1_2.jpg","position":"1","isMain":true,"gallery":{"2068":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/9\/2\/92bbc8a59b7f9a8cba6efc08c0185597_1_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/9\/2\/92bbc8a59b7f9a8cba6efc08c0185597_1_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/9\/2\/92bbc8a59b7f9a8cba6efc08c0185597_1_2.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"861":"Il Wol O Bong DAPHO-Black-Large","862":"Il Wol O Bong DAPHO-Black-Medium","863":"Il Wol O Bong DAPHO-Black-Extra Large","864":"Il Wol O Bong DAPHO-Pink-Large","865":"Il Wol O Bong DAPHO-Pink-Medium","866":"Il Wol O Bong DAPHO-Pink-Extra Large","867":"Il Wol O Bong DAPHO-Blue-Large","868":"Il Wol O Bong DAPHO-Blue-Medium","869":"Il Wol O Bong DAPHO-Blue-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-870]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":230},"oldPrice":{"amount":230},"basePrice":{"amount":230},"finalPrice":{"amount":230}}                    }
+                }
+            }
+        }
+    </script>

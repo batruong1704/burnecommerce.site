@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725848405;s:6:"expire";i:1725852005;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_486,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-486"
+         data-role="swatch-option-486"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-486]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["482"]},{"id":"10","label":"Medium","products":["483"]},{"id":"11","label":"Large","products":["484"]},{"id":"12","label":"Extra Large","products":["485"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"482":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}},"483":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}},"484":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}},"485":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130}},"productId":"486","chooseText":"Choose an Option...","images":[],"index":{"482":{"159":"9"},"483":{"159":"10"},"484":{"159":"11"},"485":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/1\/8\/183-ah450-5_842d2aae-0a13-49a6-b359-862302c4722d_700x700_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/1\/8\/183-ah450-5_842d2aae-0a13-49a6-b359-862302c4722d_700x700_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/1\/8\/183-ah450-5_842d2aae-0a13-49a6-b359-862302c4722d_700x700_1.jpg","position":"1","isMain":true,"gallery":{"759":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/1\/8\/183-ah450-5_842d2aae-0a13-49a6-b359-862302c4722d_700x700_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/1\/8\/183-ah450-5_842d2aae-0a13-49a6-b359-862302c4722d_700x700_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/1\/8\/183-ah450-5_842d2aae-0a13-49a6-b359-862302c4722d_700x700_1.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"482":"Jun - Bioclean Aikido Hakama-Small","483":"Jun - Bioclean Aikido Hakama-Medium","484":"Jun - Bioclean Aikido Hakama-Large","485":"Jun - Bioclean Aikido Hakama-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-486]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130}}                    }
+                }
+            }
+        }
+    </script>

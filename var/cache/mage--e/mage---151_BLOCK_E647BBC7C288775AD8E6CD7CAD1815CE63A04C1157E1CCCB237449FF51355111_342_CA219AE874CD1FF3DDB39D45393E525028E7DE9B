@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725740483;s:6:"expire";i:1725744083;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_342,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-342"
+         data-role="swatch-option-342"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-342]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["336","337","338"]},{"id":"5447","label":"Pink","products":["339","340","341"]},{"id":"7","label":"Blue","products":["333","334","335"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["333","336","339"]},{"id":"11","label":"Large","products":["334","337","340"]},{"id":"12","label":"Extra Large","products":["335","338","341"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"333":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}},"334":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}},"335":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}},"336":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}},"337":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}},"338":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}},"339":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}},"340":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}},"341":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125}},"productId":"342","chooseText":"Choose an Option...","images":[],"index":{"333":{"93":"7","159":"10"},"334":{"93":"7","159":"11"},"335":{"93":"7","159":"12"},"336":{"93":"6","159":"10"},"337":{"93":"6","159":"11"},"338":{"93":"6","159":"12"},"339":{"93":"5447","159":"10"},"340":{"93":"5447","159":"11"},"341":{"93":"5447","159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/w\/o\/womens-traditional-japanese-kimono-dress-341_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/w\/o\/womens-traditional-japanese-kimono-dress-341_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/w\/o\/womens-traditional-japanese-kimono-dress-341_1.jpg","position":"1","isMain":true,"gallery":{"521":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/w\/o\/womens-traditional-japanese-kimono-dress-341_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/w\/o\/womens-traditional-japanese-kimono-dress-341_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/w\/o\/womens-traditional-japanese-kimono-dress-341_1.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"333":"Kimono for Women-Blue-Medium","334":"Kimono for Women-Blue-Large","335":"Kimono for Women-Blue-Extra Large","336":"Kimono for Women-Red-Medium","337":"Kimono for Women-Red-Large","338":"Kimono for Women-Red-Extra Large","339":"Kimono for Women-Pink-Medium","340":"Kimono for Women-Pink-Large","341":"Kimono for Women-Pink-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-342]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":125},"oldPrice":{"amount":125},"basePrice":{"amount":125},"finalPrice":{"amount":125}}                    }
+                }
+            }
+        }
+    </script>

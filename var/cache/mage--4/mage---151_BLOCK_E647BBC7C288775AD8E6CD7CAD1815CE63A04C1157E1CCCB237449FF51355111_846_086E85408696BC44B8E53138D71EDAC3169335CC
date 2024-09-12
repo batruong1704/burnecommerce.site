@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725771070;s:6:"expire";i:1725774670;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_846,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-846"
+         data-role="swatch-option-846"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-846]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["843"]},{"id":"11","label":"Large","products":["844"]},{"id":"12","label":"Extra Large","products":["845"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"843":{"baseOldPrice":{"amount":263},"oldPrice":{"amount":263},"basePrice":{"amount":263},"finalPrice":{"amount":263},"tierPrices":[],"msrpPrice":{"amount":0}},"844":{"baseOldPrice":{"amount":263},"oldPrice":{"amount":263},"basePrice":{"amount":263},"finalPrice":{"amount":263},"tierPrices":[],"msrpPrice":{"amount":0}},"845":{"baseOldPrice":{"amount":263},"oldPrice":{"amount":263},"basePrice":{"amount":263},"finalPrice":{"amount":263},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":263},"oldPrice":{"amount":263},"basePrice":{"amount":263},"finalPrice":{"amount":263}},"productId":"846","chooseText":"Choose an Option...","images":[],"index":{"843":{"159":"10"},"844":{"159":"11"},"845":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/8\/b\/8ba9b8bb3c62aa87b57c86eef3eddb5d_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/8\/b\/8ba9b8bb3c62aa87b57c86eef3eddb5d_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/8\/b\/8ba9b8bb3c62aa87b57c86eef3eddb5d_2.jpg","position":"1","isMain":true,"gallery":{"2028":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/8\/b\/8ba9b8bb3c62aa87b57c86eef3eddb5d_2.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/8\/b\/8ba9b8bb3c62aa87b57c86eef3eddb5d_2.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/8\/b\/8ba9b8bb3c62aa87b57c86eef3eddb5d_2.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"843":"Willow Mother-of-pearl Girdle Waist Skirt-Medium","844":"Willow Mother-of-pearl Girdle Waist Skirt-Large","845":"Willow Mother-of-pearl Girdle Waist Skirt-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-846]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":263},"oldPrice":{"amount":263},"basePrice":{"amount":263},"finalPrice":{"amount":263}}                    }
+                }
+            }
+        }
+    </script>

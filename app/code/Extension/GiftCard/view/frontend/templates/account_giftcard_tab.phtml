@@ -15,7 +15,7 @@ $history = $block->getGiftCardHistory();
                 <span>Balance</span>
             </strong>
             <div class="box-content">
-                <p><?php echo $block->formatCurrency($block->getGiftCardBalance(), true); ?></p>
+                <p><?php echo $block->formatCurrency($block->getGiftCardBalance(), true);?></p>
             </div>
         </div>
         <?php /*dump($block->isRedeemable()); die();*/ if ($block->isRedeemable()): ?>

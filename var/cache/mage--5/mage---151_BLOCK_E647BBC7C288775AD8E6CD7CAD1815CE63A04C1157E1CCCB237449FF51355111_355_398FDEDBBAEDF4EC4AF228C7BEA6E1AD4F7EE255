@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725810698;s:6:"expire";i:1725814298;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_355,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-355"
+         data-role="swatch-option-355"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-355]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["352","353","354"]},{"id":"5441","label":"Yellow","products":["349","350","351"]},{"id":"5447","label":"Pink","products":["346","347","348"]},{"id":"7","label":"Blue","products":["343","344","345"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["343","346","349","352"]},{"id":"11","label":"Large","products":["344","347","350","353"]},{"id":"12","label":"Extra Large","products":["345","348","351","354"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"343":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"344":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"345":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"346":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"347":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"348":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"349":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"350":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"351":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"352":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"353":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}},"354":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65}},"productId":"355","chooseText":"Choose an Option...","images":[],"index":{"343":{"93":"7","159":"10"},"344":{"93":"7","159":"11"},"345":{"93":"7","159":"12"},"346":{"93":"5447","159":"10"},"347":{"93":"5447","159":"11"},"348":{"93":"5447","159":"12"},"349":{"93":"5441","159":"10"},"350":{"93":"5441","159":"11"},"351":{"93":"5441","159":"12"},"352":{"93":"6","159":"10"},"353":{"93":"6","159":"11"},"354":{"93":"6","159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"343":"Kimono Robe - Pajamas-Blue-Medium","344":"Kimono Robe - Pajamas-Blue-Large","345":"Kimono Robe - Pajamas-Blue-Extra Large","346":"Kimono Robe - Pajamas-Pink-Medium","347":"Kimono Robe - Pajamas-Pink-Large","348":"Kimono Robe - Pajamas-Pink-Extra Large","349":"Kimono Robe - Pajamas-Yellow-Medium","350":"Kimono Robe - Pajamas-Yellow-Large","351":"Kimono Robe - Pajamas-Yellow-Extra Large","352":"Kimono Robe - Pajamas-Red-Medium","353":"Kimono Robe - Pajamas-Red-Large","354":"Kimono Robe - Pajamas-Red-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-355]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":65},"oldPrice":{"amount":65},"basePrice":{"amount":65},"finalPrice":{"amount":65}}                    }
+                }
+            }
+        }
+    </script>

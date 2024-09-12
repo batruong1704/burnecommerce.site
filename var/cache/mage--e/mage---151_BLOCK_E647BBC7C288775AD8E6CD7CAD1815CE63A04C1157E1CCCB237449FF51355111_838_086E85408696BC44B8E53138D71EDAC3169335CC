@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725771212;s:6:"expire";i:1725774812;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_838,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-838"
+         data-role="swatch-option-838"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-838]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["835"]},{"id":"11","label":"Large","products":["836"]},{"id":"12","label":"Extra Large","products":["837"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"835":{"baseOldPrice":{"amount":182},"oldPrice":{"amount":182},"basePrice":{"amount":182},"finalPrice":{"amount":182},"tierPrices":[],"msrpPrice":{"amount":0}},"836":{"baseOldPrice":{"amount":182},"oldPrice":{"amount":182},"basePrice":{"amount":182},"finalPrice":{"amount":182},"tierPrices":[],"msrpPrice":{"amount":0}},"837":{"baseOldPrice":{"amount":182},"oldPrice":{"amount":182},"basePrice":{"amount":182},"finalPrice":{"amount":182},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":182},"oldPrice":{"amount":182},"basePrice":{"amount":182},"finalPrice":{"amount":182}},"productId":"838","chooseText":"Choose an Option...","images":[],"index":{"835":{"159":"10"},"836":{"159":"11"},"837":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/b\/2\/b2da4b98ede6700d3b44142a0f8a383d_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/b\/2\/b2da4b98ede6700d3b44142a0f8a383d_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/b\/2\/b2da4b98ede6700d3b44142a0f8a383d_1_1.jpg","position":"1","isMain":true,"gallery":{"2006":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/b\/2\/b2da4b98ede6700d3b44142a0f8a383d_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/b\/2\/b2da4b98ede6700d3b44142a0f8a383d_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/b\/2\/b2da4b98ede6700d3b44142a0f8a383d_1_1.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"835":"Minhwa tiger jeogori-Medium","836":"Minhwa tiger jeogori-Large","837":"Minhwa tiger jeogori-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-838]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":182},"oldPrice":{"amount":182},"basePrice":{"amount":182},"finalPrice":{"amount":182}}                    }
+                }
+            }
+        }
+    </script>

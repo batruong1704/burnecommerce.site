@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725947508;s:6:"expire";i:1725951108;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_817,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-817"
+         data-role="swatch-option-817"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-817]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["811","812"]},{"id":"11","label":"Large","products":["813","814"]},{"id":"12","label":"Extra Large","products":["815","816"]}],"position":"0"},"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["812","814","816"]},{"id":"5447","label":"Pink","products":["811","813","815"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"811":{"baseOldPrice":{"amount":101},"oldPrice":{"amount":101},"basePrice":{"amount":101},"finalPrice":{"amount":101},"tierPrices":[],"msrpPrice":{"amount":0}},"812":{"baseOldPrice":{"amount":101},"oldPrice":{"amount":101},"basePrice":{"amount":101},"finalPrice":{"amount":101},"tierPrices":[],"msrpPrice":{"amount":0}},"813":{"baseOldPrice":{"amount":101},"oldPrice":{"amount":101},"basePrice":{"amount":101},"finalPrice":{"amount":101},"tierPrices":[],"msrpPrice":{"amount":0}},"814":{"baseOldPrice":{"amount":101},"oldPrice":{"amount":101},"basePrice":{"amount":101},"finalPrice":{"amount":101},"tierPrices":[],"msrpPrice":{"amount":0}},"815":{"baseOldPrice":{"amount":101},"oldPrice":{"amount":101},"basePrice":{"amount":101},"finalPrice":{"amount":101},"tierPrices":[],"msrpPrice":{"amount":0}},"816":{"baseOldPrice":{"amount":101},"oldPrice":{"amount":101},"basePrice":{"amount":101},"finalPrice":{"amount":101},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":101},"oldPrice":{"amount":101},"basePrice":{"amount":101},"finalPrice":{"amount":101}},"productId":"817","chooseText":"Choose an Option...","images":[],"index":{"811":{"159":"10","93":"5447"},"812":{"159":"10","93":"6"},"813":{"159":"11","93":"5447"},"814":{"159":"11","93":"6"},"815":{"159":"12","93":"5447"},"816":{"159":"12","93":"6"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"811":"ANIQ Lehenga Set-Medium-Pink","812":"ANIQ Lehenga Set-Medium-Red","813":"ANIQ Lehenga Set-Large-Pink","814":"ANIQ Lehenga Set-Large-Red","815":"ANIQ Lehenga Set-Extra Large-Pink","816":"ANIQ Lehenga Set-Extra Large-Red"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-817]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":101},"oldPrice":{"amount":101},"basePrice":{"amount":101},"finalPrice":{"amount":101}}                    }
+                }
+            }
+        }
+    </script>

@@ -1,0 +1,29 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725730120;s:6:"expire";i:1725733720;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_242,151_CAT_P,151_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute182">
+                <span>Type</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[182]"
+                        data-selector="super_attribute[182]"
+                        data-validate="{required:true}"
+                        id="attribute182"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"182":{"id":"182","code":"type","label":"Type","options":[{"id":"5457","label":"Type 1","products":["238"]},{"id":"5458","label":"Type 2","products":["239"]},{"id":"5459","label":"Type 3","products":["240"]},{"id":"5460","label":"Type 4","products":["241"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"238":{"baseOldPrice":{"amount":3},"oldPrice":{"amount":3},"basePrice":{"amount":3},"finalPrice":{"amount":3},"tierPrices":[],"msrpPrice":{"amount":0}},"239":{"baseOldPrice":{"amount":3},"oldPrice":{"amount":3},"basePrice":{"amount":3},"finalPrice":{"amount":3},"tierPrices":[],"msrpPrice":{"amount":0}},"240":{"baseOldPrice":{"amount":3},"oldPrice":{"amount":3},"basePrice":{"amount":3},"finalPrice":{"amount":3},"tierPrices":[],"msrpPrice":{"amount":0}},"241":{"baseOldPrice":{"amount":3},"oldPrice":{"amount":3},"basePrice":{"amount":3},"finalPrice":{"amount":3},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":3},"oldPrice":{"amount":3},"basePrice":{"amount":3},"finalPrice":{"amount":3}},"productId":"242","chooseText":"Choose an Option...","images":{"238":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/h\/e\/hemp_coaster_1.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/h\/e\/hemp_coaster_1.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/h\/e\/hemp_coaster_1.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"239":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/h\/e\/hemp_coaster_2.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/h\/e\/hemp_coaster_2.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/h\/e\/hemp_coaster_2.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"240":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/h\/e\/hemp_coaster_3.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/h\/e\/hemp_coaster_3.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/h\/e\/hemp_coaster_3.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"241":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/h\/e\/hemp_coast_4_1.jpg","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/h\/e\/hemp_coast_4_1.jpg","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/h\/e\/hemp_coast_4_1.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}]},"index":{"238":{"182":"5457"},"239":{"182":"5458"},"240":{"182":"5459"},"241":{"182":"5460"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"238":"Hemp Coaster-Type 1","239":"Hemp Coaster-Type 2","240":"Hemp Coaster-Type 3","241":"Hemp Coaster-Type 4"}},
+                    "gallerySwitchStrategy": "prepend"
+                }
+            },
+            "*" : {
+                "Magento_ConfigurableProduct/js/catalog-add-to-cart": {}
+            }
+        }
+    </script>

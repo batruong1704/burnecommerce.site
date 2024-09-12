@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725823480;s:6:"expire";i:1725827080;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_710,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-710"
+         data-role="swatch-option-710"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-710]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5","label":"Black","products":["701","702","703"]},{"id":"6","label":"Red","products":["704","705","706"]},{"id":"7","label":"Blue","products":["707","708","709"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["702","705","708"]},{"id":"11","label":"Large","products":["701","704","707"]},{"id":"12","label":"Extra Large","products":["703","706","709"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"701":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}},"702":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}},"703":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}},"704":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}},"705":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}},"706":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}},"707":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}},"708":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}},"709":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14}},"productId":"710","chooseText":"Choose an Option...","images":[],"index":{"701":{"93":"5","159":"11"},"702":{"93":"5","159":"10"},"703":{"93":"5","159":"12"},"704":{"93":"6","159":"11"},"705":{"93":"6","159":"10"},"706":{"93":"6","159":"12"},"707":{"93":"7","159":"11"},"708":{"93":"7","159":"10"},"709":{"93":"7","159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"701":"Kimono Jacket Cotton, Kimono Robe-Black-Large","702":"Kimono Jacket Cotton, Kimono Robe-Black-Medium","703":"Kimono Jacket Cotton, Aes Kimono Robe-Black-Extra Large","704":"Kimono Jacket Cotton, Aesthetic Clothing, Kimono Robe-Red-Large","705":"Kimono Jacket Cotton, Aesthetic Clothing, Kimono Robe-Red-Medium","706":"Kimono Jacket Cotton, Kimono Robe-Red-Extra Large","707":"Kimono Jacket Cotton, Aesthetic Clothing, Kimono Robe-Blue-Large","708":"Kimono Jacket Cotton, Kimono Robe-Blue-Medium","709":"Kimono Jacket Cotton, Kimono Robe-Blue-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-710]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":47.14},"oldPrice":{"amount":47.14},"basePrice":{"amount":47.14},"finalPrice":{"amount":47.14}}                    }
+                }
+            }
+        }
+    </script>

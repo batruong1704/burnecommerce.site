@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725788086;s:6:"expire";i:1725791686;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_496,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-496"
+         data-role="swatch-option-496"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-496]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5468","label":"Olive","products":["493","494","495"]},{"id":"5467","label":"Navy blue","products":["487","488","489"]},{"id":"5446","label":"Brown","products":["490","491","492"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["487","490","493"]},{"id":"11","label":"Large","products":["488","491","494"]},{"id":"12","label":"Extra Large","products":["489","492","495"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"487":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"488":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"489":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"490":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"491":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"492":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"493":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"494":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}},"495":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80}},"productId":"496","chooseText":"Choose an Option...","images":[],"index":{"487":{"93":"5467","159":"10"},"488":{"93":"5467","159":"11"},"489":{"93":"5467","159":"12"},"490":{"93":"5446","159":"10"},"491":{"93":"5446","159":"11"},"492":{"93":"5446","159":"12"},"493":{"93":"5468","159":"10"},"494":{"93":"5468","159":"11"},"495":{"93":"5468","159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"487":"Organic Aikido Hakama-Navy blue-Medium","488":"Organic Aikido Hakama-Navy blue-Large","489":"Organic Aikido Hakama-Navy blue-Extra Large","490":"Organic Aikido Hakama-Brown-Medium","491":"Organic Aikido Hakama-Brown-Large","492":"Organic Aikido Hakama-Brown-Extra Large","493":"Organic Aikido Hakama-Olive-Medium","494":"Organic Aikido Hakama-Olive-Large","495":"Organic Aikido Hakama-Olive-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-496]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":80},"oldPrice":{"amount":80},"basePrice":{"amount":80},"finalPrice":{"amount":80}}                    }
+                }
+            }
+        }
+    </script>

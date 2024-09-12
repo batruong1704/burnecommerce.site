@@ -1035,22 +1035,6 @@ var config = {
 require.config(config);
 })();
 (function() {
-var config = {
-    'config': {
-        'mixins': {
-            'Magento_Checkout/js/view/shipping': {
-                'Extension_GiftCard/js/view/checkout/shipping-payment-mixin': true
-            },
-            'Magento_Checkout/js/view/payment': {
-                'Extension_GiftCard/js/view/checkout/shipping-payment-mixin': true
-            }
-        }
-    }
-}
-
-require.config(config);
-})();
-(function() {
 /**
  * Copyright © 2015 Magento. All rights reserved.
  * See COPYING.txt for license details.

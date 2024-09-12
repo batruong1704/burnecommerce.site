@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725837942;s:6:"expire";i:1725841542;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_567,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-567"
+         data-role="swatch-option-567"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-567]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5","label":"Black","products":["566"]},{"id":"6","label":"Red","products":["564"]},{"id":"5441","label":"Yellow","products":["565"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"564":{"baseOldPrice":{"amount":9.8},"oldPrice":{"amount":9.8},"basePrice":{"amount":9.8},"finalPrice":{"amount":9.8},"tierPrices":[],"msrpPrice":{"amount":0}},"565":{"baseOldPrice":{"amount":9.8},"oldPrice":{"amount":9.8},"basePrice":{"amount":9.8},"finalPrice":{"amount":9.8},"tierPrices":[],"msrpPrice":{"amount":0}},"566":{"baseOldPrice":{"amount":9.8},"oldPrice":{"amount":9.8},"basePrice":{"amount":9.8},"finalPrice":{"amount":9.8},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":9.8},"oldPrice":{"amount":9.8},"basePrice":{"amount":9.8},"finalPrice":{"amount":9.8}},"productId":"567","chooseText":"Choose an Option...","images":[],"index":{"564":{"93":"6"},"565":{"93":"5441"},"566":{"93":"5"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"564":"Red Japanese Daruma Doll-Red","565":"Red Japanese Daruma Doll-Yellow","566":"Red Japanese Daruma Doll-Black"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-567]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":9.8},"oldPrice":{"amount":9.8},"basePrice":{"amount":9.8},"finalPrice":{"amount":9.8}}                    }
+                }
+            }
+        }
+    </script>

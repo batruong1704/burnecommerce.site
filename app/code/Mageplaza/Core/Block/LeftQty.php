@@ -72,9 +72,10 @@ class LeftQty extends \Magento\Framework\View\Element\Template
      */
     public function saleble()
     {
-        $productId = $this->request->getParam('id');
+        $productId = $this->request->getParam('product_id') ?: $this->request->getParam('id');
         $websiteCode = $this->storemanager->getWebsite()->getCode();
         $stockDetails = $this->stockresolver->execute(SalesChannelInterface::TYPE_WEBSITE, $websiteCode);
+        
         $stockId = $stockDetails->getStockId();
         $productDetails = $this->product->create()->load($productId);
         $sku = $productDetails->getSku();

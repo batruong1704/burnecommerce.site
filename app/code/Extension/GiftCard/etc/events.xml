@@ -9,4 +9,11 @@
     <event name="sales_order_place_after">
         <observer name="mp_order_success" instance="Extension\GiftCard\Observer\AfterOrderSuccess" />
     </event>
+
+    <event name="controller_action_predispatch_giftcard_index_applyGiftCardBalance">
+        <observer name="apply_gift_card_balance" instance="Extension\GiftCard\Observer\ApplyGiftCardBalance"/>
+    </event>
+    <event name="controller_action_predispatch_checkout_index_index">
+        <observer name="apply_giftcard_to_order" instance="Extension\GiftCard\Observer\ApplyGiftCardToOrder" />
+    </event>
 </config>

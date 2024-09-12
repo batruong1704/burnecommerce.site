@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725770951;s:6:"expire";i:1725774551;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_842,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-842"
+         data-role="swatch-option-842"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-842]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["839"]},{"id":"11","label":"Large","products":["840"]},{"id":"12","label":"Extra Large","products":["841"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"839":{"baseOldPrice":{"amount":170.99},"oldPrice":{"amount":170.99},"basePrice":{"amount":170.99},"finalPrice":{"amount":170.99},"tierPrices":[],"msrpPrice":{"amount":0}},"840":{"baseOldPrice":{"amount":170.99},"oldPrice":{"amount":170.99},"basePrice":{"amount":170.99},"finalPrice":{"amount":170.99},"tierPrices":[],"msrpPrice":{"amount":0}},"841":{"baseOldPrice":{"amount":170.99},"oldPrice":{"amount":170.99},"basePrice":{"amount":170.99},"finalPrice":{"amount":170.99},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":170.99},"oldPrice":{"amount":170.99},"basePrice":{"amount":170.99},"finalPrice":{"amount":170.99}},"productId":"842","chooseText":"Choose an Option...","images":[],"index":{"839":{"159":"10"},"840":{"159":"11"},"841":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"839":"Red Plum Jeogori-Medium","840":"Red Plum Jeogori-Large","841":"Red Plum Jeogori-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-842]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":170.99},"oldPrice":{"amount":170.99},"basePrice":{"amount":170.99},"finalPrice":{"amount":170.99}}                    }
+                }
+            }
+        }
+    </script>

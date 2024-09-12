@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725823884;s:6:"expire";i:1725827484;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_471,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-471"
+         data-role="swatch-option-471"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-471]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"5","label":"Black","products":["472","473","474","475","476"]},{"id":"5467","label":"Navy blue","products":["477","478","479","480","481"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["472","477"]},{"id":"10","label":"Medium","products":["473","478"]},{"id":"11","label":"Large","products":["474","479"]},{"id":"12","label":"Extra Large","products":["475","480"]},{"id":"5440","label":"Double Extra Large","products":["476","481"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"472":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"473":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"474":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"475":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"476":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"477":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"478":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"479":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"480":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}},"481":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149}},"productId":"471","chooseText":"Choose an Option...","images":[],"index":{"472":{"93":"5","159":"9"},"473":{"93":"5","159":"10"},"474":{"93":"5","159":"11"},"475":{"93":"5","159":"12"},"476":{"93":"5","159":"5440"},"477":{"93":"5467","159":"9"},"478":{"93":"5467","159":"10"},"479":{"93":"5467","159":"11"},"480":{"93":"5467","159":"12"},"481":{"93":"5467","159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"472":"Tsubasa - Stretch Aikido Hakama-Black-Small","473":"Tsubasa - Stretch Aikido Hakama-Black-Medium","474":"Tsubasa - Stretch Aikido Hakama-Black-Large","475":"Tsubasa - Stretch Aikido Hakama-Black-Extra Large","476":"Tsubasa - Stretch Aikido Hakama-Black-Double Extra Large","477":"Tsubasa - Stretch Aikido Hakama-Navy blue-Small","478":"Tsubasa - Stretch Aikido Hakama-Navy blue-Medium","479":"Tsubasa - Stretch Aikido Hakama-Navy blue-Large","480":"Tsubasa - Stretch Aikido Hakama-Navy blue-Extra Large","481":"Tsubasa - Stretch Aikido Hakama-Navy blue-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-471]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":149},"oldPrice":{"amount":149},"basePrice":{"amount":149},"finalPrice":{"amount":149}}                    }
+                }
+            }
+        }
+    </script>

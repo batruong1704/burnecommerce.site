@@ -1,0 +1,29 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725730219;s:6:"expire";i:1725733819;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_255,151_CAT_P,151_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute182">
+                <span>Type</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[182]"
+                        data-selector="super_attribute[182]"
+                        data-validate="{required:true}"
+                        id="attribute182"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"182":{"id":"182","code":"type","label":"Type","options":[{"id":"5457","label":"Type 1","products":["251"]},{"id":"5458","label":"Type 2","products":["252"]},{"id":"5459","label":"Type 3","products":["253"]},{"id":"5460","label":"Type 4","products":["254"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"251":{"baseOldPrice":{"amount":15.74},"oldPrice":{"amount":15.74},"basePrice":{"amount":15.74},"finalPrice":{"amount":15.74},"tierPrices":[],"msrpPrice":{"amount":0}},"252":{"baseOldPrice":{"amount":18},"oldPrice":{"amount":18},"basePrice":{"amount":18},"finalPrice":{"amount":18},"tierPrices":[],"msrpPrice":{"amount":0}},"253":{"baseOldPrice":{"amount":16.25},"oldPrice":{"amount":16.25},"basePrice":{"amount":16.25},"finalPrice":{"amount":16.25},"tierPrices":[],"msrpPrice":{"amount":0}},"254":{"baseOldPrice":{"amount":14},"oldPrice":{"amount":14},"basePrice":{"amount":14},"finalPrice":{"amount":14},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":14},"oldPrice":{"amount":14},"basePrice":{"amount":14},"finalPrice":{"amount":14}},"productId":"255","chooseText":"Choose an Option...","images":{"251":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/g\/h\/ghe-may-1.png","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/g\/h\/ghe-may-1.png","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/g\/h\/ghe-may-1.png","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"252":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/g\/h\/ghe-may-2.png","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/g\/h\/ghe-may-2.png","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/g\/h\/ghe-may-2.png","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"253":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/g\/h\/ghe-may-3.png","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/g\/h\/ghe-may-3.png","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/g\/h\/ghe-may-3.png","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"254":[{"thumb":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9bdb47f7325f4a2031c3f3fa367026e4\/g\/h\/ghe-may-4.png","img":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/499dddc26bcc7e17ad5066bcda5a1a52\/g\/h\/ghe-may-4.png","full":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/g\/h\/ghe-may-4.png","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}]},"index":{"251":{"182":"5457"},"252":{"182":"5458"},"253":{"182":"5459"},"254":{"182":"5460"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"251":"Rattan chair with backrest NT001","252":"Rattan chair with backrest NT002","253":"Rattan chair with backrest NT003","254":"Rattan chair with backrest NT004"}},
+                    "gallerySwitchStrategy": "prepend"
+                }
+            },
+            "*" : {
+                "Magento_ConfigurableProduct/js/catalog-add-to-cart": {}
+            }
+        }
+    </script>

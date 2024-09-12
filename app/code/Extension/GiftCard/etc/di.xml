@@ -13,7 +13,6 @@
             <argument name="resourceModel" xsi:type="string">Extension\GiftCard\Model\ResourceModel\GiftCard</argument>
         </arguments>
     </virtualType>
-
     <type name="Magento\Checkout\Block\Cart\Coupon">
         <plugin name="check_giftcard_applied"
                 type="Extension\GiftCard\Plugin\CheckGiftCardApplied"/>
@@ -22,5 +21,5 @@
     <preference for="Extension\GiftCard\Api\GiftCardRepositoryInterface" type="Extension\GiftCard\Model\GiftCardRepository"/>
     <preference for="Extension\GiftCard\Api\Data\GiftCardInterface" type="Extension\GiftCard\Model\GiftCard"/>
     <preference for="Extension\GiftCard\Api\Data\GiftCardSearchResultInterface" type="Magento\Framework\Api\SearchResults"/>
+    <preference for="Magento\Framework\App\ActionInterface" type="Extension\GiftCard\Controller\Index\ApplyGiftCardBalance"/>
 </config>
-

@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726140039;s:6:"expire";i:1726143639;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_825,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-825"
+         data-role="swatch-option-825"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-825]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["822"]},{"id":"11","label":"Large","products":["823"]},{"id":"12","label":"Extra Large","products":["824"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"822":{"baseOldPrice":{"amount":400},"oldPrice":{"amount":400},"basePrice":{"amount":400},"finalPrice":{"amount":400},"tierPrices":[],"msrpPrice":{"amount":0}},"823":{"baseOldPrice":{"amount":400},"oldPrice":{"amount":400},"basePrice":{"amount":400},"finalPrice":{"amount":400},"tierPrices":[],"msrpPrice":{"amount":0}},"824":{"baseOldPrice":{"amount":400},"oldPrice":{"amount":400},"basePrice":{"amount":400},"finalPrice":{"amount":400},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":400},"oldPrice":{"amount":400},"basePrice":{"amount":400},"finalPrice":{"amount":400}},"productId":"825","chooseText":"Choose an Option...","images":[],"index":{"822":{"159":"10"},"823":{"159":"11"},"824":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"822":"TURVI Lehenga Set-Medium","823":"TURVI Lehenga Set-Large","824":"TURVI Lehenga Set-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-825]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":400},"oldPrice":{"amount":400},"basePrice":{"amount":400},"finalPrice":{"amount":400}}                    }
+                }
+            }
+        }
+    </script>

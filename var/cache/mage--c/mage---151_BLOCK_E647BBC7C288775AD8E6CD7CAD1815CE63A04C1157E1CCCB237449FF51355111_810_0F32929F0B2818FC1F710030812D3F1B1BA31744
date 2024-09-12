@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726140301;s:6:"expire";i:1726143901;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_810,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-810"
+         data-role="swatch-option-810"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-810]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["807"]},{"id":"11","label":"Large","products":["808"]},{"id":"12","label":"Extra Large","products":["809"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"807":{"baseOldPrice":{"amount":55},"oldPrice":{"amount":55},"basePrice":{"amount":55},"finalPrice":{"amount":55},"tierPrices":[],"msrpPrice":{"amount":0}},"808":{"baseOldPrice":{"amount":55},"oldPrice":{"amount":55},"basePrice":{"amount":55},"finalPrice":{"amount":55},"tierPrices":[],"msrpPrice":{"amount":0}},"809":{"baseOldPrice":{"amount":55},"oldPrice":{"amount":55},"basePrice":{"amount":55},"finalPrice":{"amount":55},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":55},"oldPrice":{"amount":55},"basePrice":{"amount":55},"finalPrice":{"amount":55}},"productId":"810","chooseText":"Choose an Option...","images":[],"index":{"807":{"159":"10"},"808":{"159":"11"},"809":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"807":"Newest cream raw silk sherwani-Medium","808":"Newest cream raw silk sherwani-Large","809":"Newest cream raw silk sherwani-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-810]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":55},"oldPrice":{"amount":55},"basePrice":{"amount":55},"finalPrice":{"amount":55}}                    }
+                }
+            }
+        }
+    </script>

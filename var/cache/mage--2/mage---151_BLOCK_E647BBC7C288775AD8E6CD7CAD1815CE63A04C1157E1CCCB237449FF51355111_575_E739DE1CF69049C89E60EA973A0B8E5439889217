@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725788130;s:6:"expire";i:1725791730;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_575,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-575"
+         data-role="swatch-option-575"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-575]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"4","label":"White","products":["572"]},{"id":"5","label":"Black","products":["573"]},{"id":"5441","label":"Yellow","products":["574"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"572":{"baseOldPrice":{"amount":48},"oldPrice":{"amount":48},"basePrice":{"amount":48},"finalPrice":{"amount":48},"tierPrices":[],"msrpPrice":{"amount":0}},"573":{"baseOldPrice":{"amount":48},"oldPrice":{"amount":48},"basePrice":{"amount":48},"finalPrice":{"amount":48},"tierPrices":[],"msrpPrice":{"amount":0}},"574":{"baseOldPrice":{"amount":48},"oldPrice":{"amount":48},"basePrice":{"amount":48},"finalPrice":{"amount":48},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":48},"oldPrice":{"amount":48},"basePrice":{"amount":48},"finalPrice":{"amount":48}},"productId":"575","chooseText":"Choose an Option...","images":[],"index":{"572":{"93":"4"},"573":{"93":"5"},"574":{"93":"5441"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/a\/maneki-neko-dore-156_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/a\/maneki-neko-dore-156_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/a\/maneki-neko-dore-156_1_1.jpg","position":"1","isMain":true,"gallery":{"1092":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/a\/maneki-neko-dore-156_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/a\/maneki-neko-dore-156_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/a\/maneki-neko-dore-156_1_1.jpg","position":"1","isMain":true},"1093":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/m\/a\/maneki-neko-dore-354_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/m\/a\/maneki-neko-dore-354_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/m\/a\/maneki-neko-dore-354_1_1.jpg","position":"2","isMain":false}}},"channel":"website","salesChannelCode":"base","sku":{"572":"Ceramic Maneki Neko-White","573":"Ceramic Maneki Neko-Black","574":"Ceramic Maneki Neko-Yellow"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-575]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":48},"oldPrice":{"amount":48},"basePrice":{"amount":48},"finalPrice":{"amount":48}}                    }
+                }
+            }
+        }
+    </script>

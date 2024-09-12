@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725770896;s:6:"expire";i:1725774496;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_850,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-850"
+         data-role="swatch-option-850"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-850]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["847"]},{"id":"11","label":"Large","products":["848"]},{"id":"12","label":"Extra Large","products":["849"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"847":{"baseOldPrice":{"amount":46},"oldPrice":{"amount":46},"basePrice":{"amount":46},"finalPrice":{"amount":46},"tierPrices":[],"msrpPrice":{"amount":0}},"848":{"baseOldPrice":{"amount":46},"oldPrice":{"amount":46},"basePrice":{"amount":46},"finalPrice":{"amount":46},"tierPrices":[],"msrpPrice":{"amount":0}},"849":{"baseOldPrice":{"amount":46},"oldPrice":{"amount":46},"basePrice":{"amount":46},"finalPrice":{"amount":46},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":46},"oldPrice":{"amount":46},"basePrice":{"amount":46},"finalPrice":{"amount":46}},"productId":"850","chooseText":"Choose an Option...","images":[],"index":{"847":{"159":"10"},"848":{"159":"11"},"849":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/0\/0\/00daa63d6bfcced906233f7cbb99d06f_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/0\/0\/00daa63d6bfcced906233f7cbb99d06f_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/0\/0\/00daa63d6bfcced906233f7cbb99d06f_1_1.jpg","position":"1","isMain":true,"gallery":{"2035":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/0\/0\/00daa63d6bfcced906233f7cbb99d06f_1_1.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/0\/0\/00daa63d6bfcced906233f7cbb99d06f_1_1.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/0\/0\/00daa63d6bfcced906233f7cbb99d06f_1_1.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"847":"Taegeuk Tube Top-Medium","848":"Taegeuk Tube Top-Large","849":"Taegeuk Tube Top-Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-850]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":46},"oldPrice":{"amount":46},"basePrice":{"amount":46},"finalPrice":{"amount":46}}                    }
+                }
+            }
+        }
+    </script>

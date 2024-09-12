@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725845848;s:6:"expire";i:1725849448;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_470,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-470"
+         data-role="swatch-option-470"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-470]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"9","label":"Small","products":["465"]},{"id":"10","label":"Medium","products":["466"]},{"id":"11","label":"Large","products":["467"]},{"id":"12","label":"Extra Large","products":["468"]},{"id":"5440","label":"Double Extra Large","products":["469"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"465":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}},"466":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}},"467":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}},"468":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}},"469":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130}},"productId":"470","chooseText":"Choose an Option...","images":[],"index":{"465":{"159":"9"},"466":{"159":"10"},"467":{"159":"11"},"468":{"159":"12"},"469":{"159":"5440"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/1\/8\/183-ah900_5b00_5d_5bx_5d-6_a8f3df54-6861-43dc-a80e-3a8b40581958_700x700_5.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/1\/8\/183-ah900_5b00_5d_5bx_5d-6_a8f3df54-6861-43dc-a80e-3a8b40581958_700x700_5.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/1\/8\/183-ah900_5b00_5d_5bx_5d-6_a8f3df54-6861-43dc-a80e-3a8b40581958_700x700_5.jpg","position":"1","isMain":true,"gallery":{"728":{"large":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/9fe4f64e0eea492b9bd509c0f348b82a\/1\/8\/183-ah900_5b00_5d_5bx_5d-6_a8f3df54-6861-43dc-a80e-3a8b40581958_700x700_5.jpg","medium":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/4881cf2f1b5b82f1fe97762f8da383ef\/1\/8\/183-ah900_5b00_5d_5bx_5d-6_a8f3df54-6861-43dc-a80e-3a8b40581958_700x700_5.jpg","small":"https:\/\/burnecommerce.site\/media\/catalog\/product\/cache\/013e883cc6553f8571743dd2139dd3d5\/1\/8\/183-ah900_5b00_5d_5bx_5d-6_a8f3df54-6861-43dc-a80e-3a8b40581958_700x700_5.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"465":"Take - Deluxe Cotton Aikido Hakama-Small","466":"Take - Deluxe Cotton Aikido Hakama-Medium","467":"Take - Deluxe Cotton Aikido Hakama-Large","468":"Take - Deluxe Cotton Aikido Hakama-Extra Large","469":"Take - Deluxe Cotton Aikido Hakama-Double Extra Large"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-470]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":130},"oldPrice":{"amount":130},"basePrice":{"amount":130},"finalPrice":{"amount":130}}                    }
+                }
+            }
+        }
+    </script>

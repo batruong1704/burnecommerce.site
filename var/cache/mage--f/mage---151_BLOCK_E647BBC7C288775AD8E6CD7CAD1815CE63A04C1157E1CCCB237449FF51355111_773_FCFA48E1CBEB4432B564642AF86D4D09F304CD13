@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1726014859;s:6:"expire";i:1726018459;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_773,151_CAT_P,151_MAGE";}
+                <div class="swatch-opt-773"
+         data-role="swatch-option-773"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-773]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"6","label":"Red","products":["770","771","772"]},{"id":"7","label":"Blue","products":["767","768","769"]}],"position":"0"},"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["767","770"]},{"id":"11","label":"Large","products":["768","771"]},{"id":"12","label":"Extra Large","products":["769","772"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"767":{"baseOldPrice":{"amount":62},"oldPrice":{"amount":62},"basePrice":{"amount":62},"finalPrice":{"amount":62},"tierPrices":[],"msrpPrice":{"amount":0}},"768":{"baseOldPrice":{"amount":62},"oldPrice":{"amount":62},"basePrice":{"amount":62},"finalPrice":{"amount":62},"tierPrices":[],"msrpPrice":{"amount":0}},"769":{"baseOldPrice":{"amount":62},"oldPrice":{"amount":62},"basePrice":{"amount":62},"finalPrice":{"amount":62},"tierPrices":[],"msrpPrice":{"amount":0}},"770":{"baseOldPrice":{"amount":62},"oldPrice":{"amount":62},"basePrice":{"amount":62},"finalPrice":{"amount":62},"tierPrices":[],"msrpPrice":{"amount":0}},"771":{"baseOldPrice":{"amount":62},"oldPrice":{"amount":62},"basePrice":{"amount":62},"finalPrice":{"amount":62},"tierPrices":[],"msrpPrice":{"amount":0}},"772":{"baseOldPrice":{"amount":62},"oldPrice":{"amount":62},"basePrice":{"amount":62},"finalPrice":{"amount":62},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":62},"oldPrice":{"amount":62},"basePrice":{"amount":62},"finalPrice":{"amount":62}},"productId":"773","chooseText":"Choose an Option...","images":[],"index":{"767":{"93":"7","159":"10"},"768":{"93":"7","159":"11"},"769":{"93":"7","159":"12"},"770":{"93":"6","159":"10"},"771":{"93":"6","159":"11"},"772":{"93":"6","159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"767":"Kanjivaram Silk Saree With Floral Butti Ogive Design-Blue-Medium","768":"Kanjivaram Silk Saree With Floral Butti Ogive Design-Blue-Large","769":"Kanjivaram Silk Saree With Floral Butti Ogive Design-Blue-XL","770":"Kanjivaram Silk Saree With Floral Butti Ogive Design-Red-Medium","771":"Kanjivaram Silk Saree With Floral Butti Ogive Design-Red-Large","772":"Kanjivaram Silk Saree With Floral Butti Ogive Design-Red-XL"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-773]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":62},"oldPrice":{"amount":62},"basePrice":{"amount":62},"finalPrice":{"amount":62}}                    }
+                }
+            }
+        }
+    </script>

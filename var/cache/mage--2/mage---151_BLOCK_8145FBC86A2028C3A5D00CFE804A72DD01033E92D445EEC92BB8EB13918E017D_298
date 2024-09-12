@@ -1,0 +1,19 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1725670515;s:6:"expire";i:1725674115;s:4:"tags";s:47:"151_BLOCK_HTML,151_CAT_P_298,151_CAT_P,151_MAGE";}
+<div class="swatch-opt" data-role="swatch-options"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-options]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["295"]},{"id":"11","label":"Large","products":["296"]},{"id":"12","label":"Extra Large","products":["297"]}],"position":"0"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"295":{"baseOldPrice":{"amount":47},"oldPrice":{"amount":47},"basePrice":{"amount":47},"finalPrice":{"amount":47},"tierPrices":[],"msrpPrice":{"amount":0}},"296":{"baseOldPrice":{"amount":47},"oldPrice":{"amount":47},"basePrice":{"amount":47},"finalPrice":{"amount":47},"tierPrices":[],"msrpPrice":{"amount":0}},"297":{"baseOldPrice":{"amount":47},"oldPrice":{"amount":47},"basePrice":{"amount":47},"finalPrice":{"amount":47},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":47},"oldPrice":{"amount":47},"basePrice":{"amount":47},"finalPrice":{"amount":47}},"productId":"298","chooseText":"Choose an Option...","images":[],"index":{"295":{"159":"10"},"296":{"159":"11"},"297":{"159":"12"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"295":"Kimono Jacket Night Blue-Medium","296":"Kimono Jacket Night Blue-Large","297":"Kimono Jacket Night Blue-Extra Large"}},
+                "jsonSwatchConfig": {"159":{"10":{"type":"0","value":"M","label":"Medium"},"11":{"type":"0","value":"L","label":"Large"},"12":{"type":"0","value":"XL","label":"Extra Large"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fburnecommerce.site\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "gallerySwitchStrategy": "prepend",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        },
+        "*" : {
+            "Magento_Swatches/js/catalog-add-to-cart": {}
+        }
+    }
+</script>
